@@ -1,0 +1,100 @@
+#MotherShip
+nanotech_mothership = {
+	formation_priority = @titan_formation_priority
+	entity = "gatebuilder_01_mothership_entity"
+	max_speed = @speed_default
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 5
+	modifier = {
+		ship_piracy_suppression_add = 16
+		ship_hull_regen_add_static = 100
+		ship_evasion_add = @titan_evasion
+		ships_upkeep_mult = -1
+		ship_armor_regen_add_static = 100
+	}
+	max_hitpoints = @colossus_hp
+	size_multiplier = 16
+	fleet_slot_size = 16
+    section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 8
+	is_space_station = no
+	icon = ship_size_military_16
+	class = shipclass_military
+    default_behavior = artillery
+	ship_roles = { artillery carrier  }
+	use_shipnames_from = titan
+    can_have_federation_design = no
+	base_buildtime = @titan_build_time
+	enable_default_design = no
+	is_designable = yes
+	
+	construction_type = starbase_shipyard
+	selectable = {host_has_dlc = "Apocalypse"}
+    combat_disengage_chance = 1.25
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+        required_component_set = "combat_computers"
+
+	components_add_to_cost = no
+potential_country = {
+		has_tradition = tr_nanotech_5
+	}
+
+
+	resources = {
+		category = ships
+		cost = {
+			nanites = 100000
+	    }
+	}
+}
+# Gray Goo Interdictor
+nanotech_interdictor = {
+	formation_priority = @cruiser_formation_priority
+	entity = gatebuilder_01_cruiser_entity
+	max_speed = @speed_fast
+	acceleration = 0.25
+	rotation_speed = 0.175
+	collision_radius = 4
+	modifier = {	
+		ship_hull_regen_add_static = 20
+		ship_armor_regen_add_static = 20
+		ship_evasion_add = 20
+		ships_upkeep_mult = -1
+		ship_piracy_suppression_add = 8
+	}
+	max_hitpoints = @cruiser_hp
+	size_multiplier = 4
+	fleet_slot_size = 4
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 8
+	is_space_station = no
+	icon = ship_size_military_4
+	class = shipclass_military
+    enable_default_design = no
+	is_designable = yes
+    default_behavior = line
+	construction_type = starbase_shipyard
+	ship_roles = { gunship artillery carrier }
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+	components_add_to_cost = no
+	potential_country = {
+		has_tradition = tr_nanotech_4
+	}
+	
+	resources = {
+		category = ships
+		cost = {
+			nanites = 50000
+	    }
+	}
+
+}

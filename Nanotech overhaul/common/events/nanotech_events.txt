@@ -1,0 +1,128 @@
+situation_event = { #You have slurped up everything you could from this world
+	id = nanotech.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		target = {
+			if = {
+				limit = {
+					has_planet_flag = fallen_empire_capital
+				}
+				owner = {
+					set_country_flag = past_the_expiration_date_achievement
+				}
+			}
+			slushify_world = yes
+			slushify_world = yes
+			remove_modifier = being_devoured_modifier_nanotech
+			change_pc = pc_nanotech
+			planet_event = { id = nanotech.2 }
+			owner = {
+				change_variable = {
+					which = nanotech_mothership_summoned
+					value = 1
+				}
+			}
+		}
+		destroy_situation = this
+	}
+}
+
+
+country_event = { #A Mothership is summoned
+	id = nanotech.2
+	title = nanotech.3.name
+	desc = nanotech.3.desc
+	picture = GFX_evt_gray_goo_ships
+	show_sound = event_mystic_reveal
+	location = event_target:nanite_ship_fleet
+
+	is_triggered_only = yes
+
+	immediate = {
+		create_country = {
+			name = "NAME_Nanite_Ship"
+			type = nice_faction
+			auto_delete = yes
+			flag = {
+				icon = {
+					category = "special"
+					file = "unknown.dds"
+				}
+				background = {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors = {
+					"dark_grey"
+					"dark_grey"
+					"null"
+					"null"
+				}
+			}
+			effect = {
+				set_faction_hostility = {
+					target = root
+					set_hostile = no
+					set_neutral = yes
+					set_friendly = no
+				}
+				create_fleet = {
+					name = "NAME_Nanite_Mothership"
+					effect = {
+						set_owner = prev
+						create_ship = {
+							name = random
+							design = "NAME_Nanite_Mothership"
+							prefix = no
+							upgradable = yes
+						}
+						set_location = {
+							target = FROMFROMFROM
+							distance = 2
+							angle = random
+						}
+						set_fleet_stance = passive
+						save_event_target_as = nanite_ship_fleet
+					}
+					settings = {
+						can_upgrade = yes
+						can_disband = yes
+						can_change_composition = yes
+						can_change_leader = yes
+						uses_naval_capacity = yes
+						spawn_debris = no
+					}
+				}
+				save_event_target_as = nanite_ship_country
+			}
+		}
+	}
+
+	option = {
+		name = INCREDIBLE
+		event_target:nanite_ship_fleet = {
+			set_owner = root
+		}
+		hidden_effect = {
+			event_target:nanite_ship_country = {
+				destroy_country = yes
+			}
+		}
+	}
+
+	option = {
+		name = SCRAPIT
+		event_target:nanite_ship_fleet = {
+			delete_fleet = this
+		}
+		add_resource = { nanites = 100000 }
+		generate_lcluster_clue = yes
+		hidden_effect = {
+			event_target:nanite_ship_country = {
+				destroy_country = yes
+			}
+		}
+	}
+}
