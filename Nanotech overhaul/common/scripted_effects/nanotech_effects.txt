@@ -1,10 +1,8 @@
 #spawns in mothership (atleast should work like that )
 nanotech_mothership_ship_generation = {
-	event_target:nanotech_country = {
-		random_owned_design = {
-			limit = { is_ship_size = nanotech_mothership }
-			save_event_target_as = nanotech_mothership_design
-		}
+	random_owned_design = {
+		limit = { is_ship_size = nanotech_mothership }
+		save_event_target_as = nanotech_mothership_design
 	}
 	create_message = {
 		type = MESSAGE_MOTHERSHIP_BOON
@@ -15,7 +13,7 @@ nanotech_mothership_ship_generation = {
 	
 	create_fleet = {
 		effect = {
-			set_owner = event_target:nanotech_country
+			set_owner = this
 			while = {
 				count = 1
 				create_ship = {
