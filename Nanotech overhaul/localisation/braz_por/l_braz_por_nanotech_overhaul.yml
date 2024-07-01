@@ -1,0 +1,33 @@
+﻿l_braz_por:
+ NANOTECH_INTERDICTOR_BOW_M2: "$NANOTECH_INTERDICTOR_MID_M3$" #NT!
+ NANOTECH_INTERDICTOR_BOW_S3P2: "$NANOTECH_INTERDICTOR_MID_S5P2$" #NT!
+ NANOTECH_INTERDICTOR_MID_M3: "Interdictor Cannons" #NT!
+ NANOTECH_INTERDICTOR_MID_P2H1: "Interdictor Hanger" #NT!
+ NANOTECH_INTERDICTOR_MID_S5P2: "Interdictor Interdiction" #NT!
+ NANOTECH_INTERDICTOR_STERN_M1: "$NANOTECH_INTERDICTOR_MID_M3$" #NT!
+ NANOTECH_INTERDICTOR_STERN_S1P2: "$NANOTECH_INTERDICTOR_MID_S5P2$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_G2: "$NANOTECH_MOTHERSHIP_MID_G3$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_H2: "$NANOTECH_MOTHERSHIP_MID_H3$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_L2: "$NANOTECH_MOTHERSHIP_MID_L3$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_XL1: "Mothership Siege" #NT!
+ NANOTECH_MOTHERSHIP_MID_G3: "Mothership Missiles" #NT!
+ NANOTECH_MOTHERSHIP_MID_H3: "Mothership Hangers" #NT!
+ NANOTECH_MOTHERSHIP_MID_L3: "Mothership Artillery" #NT!
+ NANOTECH_MOTHERSHIP_STERN_G1: "$NANOTECH_MOTHERSHIP_MID_G3$" #NT!
+ NANOTECH_MOTHERSHIP_STERN_H1: "$NANOTECH_MOTHERSHIP_MID_H3$" #NT!
+ NANOTECH_MOTHERSHIP_STERN_L1: "$NANOTECH_MOTHERSHIP_MID_L3$" #NT!
+ NANOTECH_interdictor: "$NAME_Nanite_Interdictor$" #NT!
+ nanotech_interdictor_plural: "Nanite $graygoo_interdictor_plural$" #NT!
+ nanotech_mothership: "$NAME_Nanite_Mothership$" #NT!
+ nanotech_mothership_plural: "Nanite $graygoo_mothership_plural$" #NT!
+ decision_nanotech_swarm_create_mothership: "Summon Nanite Mothership" #NT!
+ decision_nanotech_swarm_create_mothership_desc: "Create a Mothership using this planet's nanites" #NT!
+ nanotech_restraint_effect: "We changed our mind and dont need another mothership" #NT!
+ nanotech.2.name: "Mothership summoning complete" #NT!
+ nanotech.2.desc: "Our project to summon an Mothership using this planet's nanites has been completed" #NT!
+ nanotech_summon_finish_tooltip: "Use nanites of this world to summon mothership" #NT!
+ nanotech_summon_effect: "Use nanites of this world to summon mothership" #NT!
+ situation_nanotech_create_mothership: "Summoning Nanite Mothership" #NT!
+ situation_nanotech_create_mothership_desc: "We're using this planet's nanites to create Nanite Mothership" #NT!
+ situation_nanotech_create_mothership_type: "Summon Nanite Mothership" #NT!
+ nanotech_stage_summoning: "These nanites will find a new purpose" #NT!

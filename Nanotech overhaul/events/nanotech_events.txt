@@ -8,7 +8,7 @@
 
 
 
- situation_event = { 
+situation_event = { 
 	id = nanotech.1
 	hide_window = yes
 	is_triggered_only = yes
