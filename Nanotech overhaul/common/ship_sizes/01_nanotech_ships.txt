@@ -83,5 +83,4 @@ potential_country = {
 	}
 }
 
-}
 

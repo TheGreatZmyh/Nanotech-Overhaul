@@ -8,14 +8,19 @@
 
 
 
- situation_event = { 
+situation_event = { 
 	id = nanotech.1
 	hide_window = yes
 	is_triggered_only = yes
 
 	immediate = {
+		owner = {
 		remove_modifier = nanotech_summoning_mothership
 		country_event = { id = nanotech.2 } # Trigger the country event
+		}
+	}
+
+	After = {
 		destroy_situation = this
 	}
 	

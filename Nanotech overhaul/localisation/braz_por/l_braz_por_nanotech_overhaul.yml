@@ -54,3 +54,4 @@ nanotech_stage_summoning: "These nanites will find a new purpose"
  planet_subsumed.101.desc: "After the swarm of specialised nanites from [From.From:Getname] touched the surface of [From.Getname] , they immeadiatly began spreading.\n\ After a few weeks, the Planet, including all residents and infrastructure, was transformed into a giant mass of nanites."
  WaCol_will_destroy_colony: "With this Action, every Pop will be killed and every District and building will be destroyed."
  WaCol_is_nanite_world: "This already is a Nanite World"
+
