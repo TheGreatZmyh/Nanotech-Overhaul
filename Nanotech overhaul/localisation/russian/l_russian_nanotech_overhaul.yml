@@ -1,33 +1,49 @@
 ﻿l_russian:
- NANOTECH_INTERDICTOR_BOW_M2: "$NANOTECH_INTERDICTOR_MID_M3$" #NT!
- NANOTECH_INTERDICTOR_BOW_S3P2: "$NANOTECH_INTERDICTOR_MID_S5P2$" #NT!
- NANOTECH_INTERDICTOR_MID_M3: "Interdictor Cannons" #NT!
- NANOTECH_INTERDICTOR_MID_P2H1: "Interdictor Hanger" #NT!
- NANOTECH_INTERDICTOR_MID_S5P2: "Interdictor Interdiction" #NT!
- NANOTECH_INTERDICTOR_STERN_M1: "$NANOTECH_INTERDICTOR_MID_M3$" #NT!
- NANOTECH_INTERDICTOR_STERN_S1P2: "$NANOTECH_INTERDICTOR_MID_S5P2$" #NT!
- NANOTECH_MOTHERSHIP_BOW_G2: "$NANOTECH_MOTHERSHIP_MID_G3$" #NT!
- NANOTECH_MOTHERSHIP_BOW_H2: "$NANOTECH_MOTHERSHIP_MID_H3$" #NT!
- NANOTECH_MOTHERSHIP_BOW_L2: "$NANOTECH_MOTHERSHIP_MID_L3$" #NT!
- NANOTECH_MOTHERSHIP_BOW_XL1: "Mothership Siege" #NT!
- NANOTECH_MOTHERSHIP_MID_G3: "Mothership Missiles" #NT!
- NANOTECH_MOTHERSHIP_MID_H3: "Mothership Hangers" #NT!
- NANOTECH_MOTHERSHIP_MID_L3: "Mothership Artillery" #NT!
- NANOTECH_MOTHERSHIP_STERN_G1: "$NANOTECH_MOTHERSHIP_MID_G3$" #NT!
- NANOTECH_MOTHERSHIP_STERN_H1: "$NANOTECH_MOTHERSHIP_MID_H3$" #NT!
- NANOTECH_MOTHERSHIP_STERN_L1: "$NANOTECH_MOTHERSHIP_MID_L3$" #NT!
- NANOTECH_interdictor: "$NAME_Nanite_Interdictor$" #NT!
- nanotech_interdictor_plural: "Nanite $graygoo_interdictor_plural$" #NT!
- nanotech_mothership: "$NAME_Nanite_Mothership$" #NT!
- nanotech_mothership_plural: "Nanite $graygoo_mothership_plural$" #NT!
- decision_nanotech_swarm_create_mothership: "Summon Nanite Mothership" #NT!
- decision_nanotech_swarm_create_mothership_desc: "Create a Mothership using this planet's nanites" #NT!
- nanotech_restraint_effect: "We changed our mind and dont need another mothership" #NT!
- nanotech.2.name: "Mothership summoning complete" #NT!
- nanotech.2.desc: "Our project to summon an Mothership using this planet's nanites has been completed" #NT!
- nanotech_summon_finish_tooltip: "Use nanites of this world to summon mothership" #NT!
- nanotech_summon_effect: "Use nanites of this world to summon mothership" #NT!
- situation_nanotech_create_mothership: "Summoning Nanite Mothership" #NT!
- situation_nanotech_create_mothership_desc: "We're using this planet's nanites to create Nanite Mothership" #NT!
- situation_nanotech_create_mothership_type: "Summon Nanite Mothership" #NT!
- nanotech_stage_summoning: "These nanites will find a new purpose" #NT!
+ NANOTECH_MOTHERSHIP_BOW_G2: "$NANOTECH_MOTHERSHIP_MID_G3$"
+ NANOTECH_MOTHERSHIP_BOW_H2: "$NANOTECH_MOTHERSHIP_MID_H3$"
+ NANOTECH_MOTHERSHIP_BOW_L2: "$NANOTECH_MOTHERSHIP_MID_L3$"
+ NANOTECH_MOTHERSHIP_BOW_XL1: "Mothership Siege"
+ NANOTECH_MOTHERSHIP_MID_G3: "Mothership Missiles"
+ NANOTECH_MOTHERSHIP_MID_H3: "Mothership Hangers"
+ NANOTECH_MOTHERSHIP_MID_L3: "Mothership Artillery"
+ NANOTECH_MOTHERSHIP_STERN_G1: "$NANOTECH_MOTHERSHIP_MID_G3$"
+ NANOTECH_MOTHERSHIP_STERN_H1: "$NANOTECH_MOTHERSHIP_MID_H3$"
+ NANOTECH_MOTHERSHIP_STERN_L1: "$NANOTECH_MOTHERSHIP_MID_L3$"
+ NANOTECH_interdictor: "$NAME_Nanite_Interdictor$"
+ nanotech_interdictor_plural: "Nanite $graygoo_interdictor_plural$"
+ nanotech_mothership: "$NAME_Nanite_Mothership$"
+ nanotech_mothership_plural: "Nanite $graygoo_mothership_plural$"
+decision_nanotech_swarm_create_mothership: "Summon Nanite Mothership"
+decision_nanotech_swarm_create_mothership_desc: "Create a Mothership using this planet's nanites"
+nanotech_restraint_effect: "We changed our mind and dont need another mothership"
+nanotech.2.name: "Mothership summoning complete"
+nanotech.2.desc: "Our project to summon an Mothership using this planet's nanites has been completed"
+nanotech_summon_finish_tooltip: "Use nanites of this world to summon mothership"
+nanotech_summon_effect: "Use nanites of this world to summon mothership"
+situation_nanotech_create_mothership: "Summoning Nanite Mothership"
+situation_nanotech_create_mothership_desc: "We're using this planet's nanites to create Nanite Mothership"
+situation_nanotech_create_mothership_type: "Summon Nanite Mothership"
+nanotech_stage_summoning: "These nanites will find a new purpose"
+
+
+####Parciwal's Generator and Factory
+ NFac_building_nanotech_factory: "Nanotech-Factory"
+ NFac_building_nanotech_factory_desc: "With the help of nanites, we can create Consumer goods with outstanding Quality."
+ NFac_building_nanotech_factory_upgrade: "Nanotech-Factory-Complex"
+ NFac_building_nanotech_factory_upgrade_desc: "With the help of exotic gases, we can create an atmosphere that greatly improves the efficency of our Nanites."
+  NGen_building_nanotech_generator: "Nanotech-Power plant"
+ NGen_building_nanotech_generator_desc: "Thanks to the manipulative qualities of Nanites, we can extract Energy from Volatile Motes."
+ NGen_building_nanotech_generator_upgrade: "Nanotech-Power plant-Complex"
+ NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech-Power plants."
+
+
+ ####Parciwal's Subsumer (Planet killer weapon)
+  PLANET_KILLER_NANITE_CONSUMPTION: "Nanite Spreader"
+ PLANET_KILLER_NANITE_CONSUMPTION_ACTION: "Subsume"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANITE_CONSUMPTION: "Preparing to subsume $PLANET|Y$"
+ MESSAGE_DESC_FOR_PLANET_KILLER_NANITE_CONSUMPTION: "was subsumed by nanobots from"
+ PLANET_KILLER_NANITE_CONSUMPTION_DESC: "Swarms of nanobots are dispersed in the atmosphere. In just matter of days they consume the entire planet, including all residents and infrastructure, transforming it into a giant mass of nanites ."
+ planet_subsumed.101.name: "World subsumed"
+ planet_subsumed.101.desc: "After the swarm of specialised nanites from [From.From:Getname] touched the surface of [From.Getname] , they immeadiatly began spreading.\n\ After a few weeks, the Planet, including all residents and infrastructure, was transformed into a giant mass of nanites."
+ WaCol_will_destroy_colony: "With this Action, every Pop will be killed and every District and building will be destroyed."
+ WaCol_is_nanite_world: "This already is a Nanite World"
