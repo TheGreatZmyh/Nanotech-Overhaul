@@ -4,5 +4,5 @@ summoning_progress = {
 		mult = target.num_districts_terravore
 	}
 	pow = 1
-	
+
 }

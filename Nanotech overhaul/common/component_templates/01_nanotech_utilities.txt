@@ -260,476 +260,6 @@ utility_component_template = {
 		}
 	}
 }
-###Interdictor
-utility_component_template = {
-	key = "nanotech_interdictor_SHIP_THRUSTER_1"
-	size = small
-	icon = "GFX_ship_part_thruster_1"
-	icon_frame = 1
-	power = @cruiser_power_1
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost1
-		}
-	}
-
-	modifier = {
-	}
-
-	prerequisites = { "tech_thrusters_1" }
-	component_set = "thruster_components"
-	size_restriction = { nanotech_interdictor }
-	upgrades_to = "nanotech_interdictor_SHIP_THRUSTER_2"
-
-	ai_weight = {
-		weight = 1
-	}
-}
-###
-utility_component_template = {
-	key = "nanotech_interdictor_SHIP_THRUSTER_2"
-	size = small
-	icon = "GFX_ship_part_thruster_2"
-	icon_frame = 1
-	power = @cruiser_power_2
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost2
-		}
-	}
-
-	modifier = {
-		ship_base_speed_mult = 0.25
-		ship_evasion_add = 3
-	}
-
-	prerequisites = { "tech_thrusters_2" }
-	component_set = "thruster_components"
-	size_restriction = { nanotech_interdictor }
-	upgrades_to = "nanotech_interdictor_SHIP_THRUSTER_3"
-
-	ai_weight = {
-		weight = 2
-	}
-}
-utility_component_template = {
-	key = "nanotech_interdictor_SHIP_THRUSTER_3"
-	size = small
-	icon = "GFX_ship_part_thruster_3"
-	icon_frame = 1
-	power = @cruiser_power_3
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost3
-		}
-	}
-	modifier = {
-		ship_base_speed_mult = 0.50
-		ship_evasion_add = 6
-	}
-
-	prerequisites = { "tech_thrusters_3" }
-	component_set = "thruster_components"
-	size_restriction = { nanotech_interdictor}
-	upgrades_to = "nanotech_interdictor_SHIP_THRUSTER_4"
-
-	ai_weight = {
-		weight = 3
-	}
-}
-###
-utility_component_template = {
-	key = "nanotech_interdictor_SHIP_THRUSTER_4"
-	size = small
-	icon = "GFX_ship_part_thruster_4"
-	icon_frame = 1
-	power = @cruiser_power_4
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost4
-		}
-	}
-	modifier = {
-		ship_base_speed_mult = 0.75
-		ship_evasion_add = 9
-	}
-
-	prerequisites = { "tech_thrusters_4" }
-	component_set = "thruster_components"
-	size_restriction = { nanotech_interdictor }
-	upgrades_to = "nanotech_interdictor_SHIP_THRUSTER_5"
-
-	ai_weight = {
-		weight = 4
-	}
-}
-####
-utility_component_template = {
-	key = "nanotech_interdictor_SHIP_THRUSTER_5"
-	size = small
-	icon = "GFX_ship_part_thruster_5"
-	icon_frame = 1
-	power = @cruiser_power_5
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost4
-			sr_dark_matter = 4
-		}
-	}
-	modifier = {
-		ship_base_speed_mult = 1.25
-		ship_evasion_add = 12
-	}
-
-	prerequisites = { "tech_dark_matter_propulsion" }
-	component_set = "thruster_components"
-	size_restriction = { nanotech_interdictor }
-
-	ai_weight = {
-		weight = 5
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = sr_dark_matter }
-		}
-		modifier = {
-			factor = 0.0
-			is_ai = yes
-		}
-	}
-}
-###
-utility_component_template = {
-	key = "nanotech_interdictor_FISSION_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_1"
-	icon_frame = 1
-	power = @cruiser_power_1
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost_1
-		}
-		upkeep = {
-			energy = 0.40
-			alloys = 0.04
-		}
-	}
-
-	prerequisites = { "tech_fission_power" }
-	component_set = "power_core"
-	size_restriction = { nanotech_interdictor }
-	upgrades_to = "nanotech_interdictor_FUSION_REACTOR"
-
-	ai_weight = {
-		weight = 1
-	}
-}
-####
-utility_component_template = {
-	key = "nanotech_interdictor_FUSION_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_2"
-	icon_frame = 1
-	power = @cruiser_power_2
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost_2
-		}
-		upkeep = {
-			energy = 0.52
-			alloys = 0.052
-		}
-	}
-
-	prerequisites = { "tech_fusion_power" }
-	component_set = "power_core"
-	size_restriction = { nanotech_interdictor }
-	upgrades_to = "nanotech_interdictor_COLD_FUSION_REACTOR"
-
-	ai_weight = {
-		weight = 2
-	}
-}
-####
-utility_component_template = {
-	key = "nanotech_interdictor_COLD_FUSION_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_3"
-	icon_frame = 1
-	power = @cruiser_power_3
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost_3
-		}
-		upkeep = {
-			energy = 0.68
-			alloys = 0.068
-		}
-	}
-
-	prerequisites = { "tech_cold_fusion_power" }
-	component_set = "power_core"
-	size_restriction = { nanotech_interdictor}
-	upgrades_to = "nanotech_interdictor_ANTIMATTER_REACTOR"
-
-	ai_weight = {
-		weight = 3
-	}
-}
-####
-utility_component_template = {
-	key = "nanotech_interdictor_ANTIMATTER_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_4"
-	icon_frame = 1
-	power = @cruiser_power_4
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost_4
-		}
-		upkeep = {
-			energy = 0.88
-			alloys = 0.088
-		}
-	}
-
-	prerequisites = { "tech_antimatter_power" }
-	component_set = "power_core"
-	size_restriction = { nanotech_interdictor }
-	upgrades_to = "nanotech_interdictor_ZERO_POINT_REACTOR"
-
-	ai_weight = {
-		weight = 4
-	}
-}
-####
-utility_component_template = {
-	key = "nanotech_interdictor_ZERO_POINT_REACTOR"
-	size = small
-	icon = "GFX_ship_part_reactor_5"
-	icon_frame = 1
-	power = @cruiser_power_5
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost_5
-		}
-		upkeep = {
-			energy = 1.14
-			alloys = 0.114
-		}
-	}
-
-	prerequisites = { "tech_zero_point_power" }
-	component_set = "power_core"
-	size_restriction = { nanotech_interdictor }
-	upgrades_to = "nanotech_interdictor_DARK_MATTER_REACTOR"
-
-	ai_weight = {
-		weight = 5
-	}
-}
-####
-utility_component_template = {
-	key = "nanotech_interdictor_DARK_MATTER_REACTOR"
-	size = small
-	icon = "GFX_ship_part_dark_matter_power_core"
-	icon_frame = 1
-	power = @cruiser_power_6
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cruiser_cost_6
-			sr_dark_matter = 4
-		}
-		upkeep = {
-			energy = 1.48
-			alloys = 0.148
-		}
-	}
-
-	prerequisites = { "tech_dark_matter_power_core" }
-	component_set = "power_core"
-	size_restriction = { nanotech_interdictor }
-
-	ai_weight = {
-		weight = 6
-		modifier = {
-			factor = 0.0
-			no_resource_for_component = { RESOURCE = sr_dark_matter }
-		}
-		modifier = {
-			factor = 0.0
-			is_ai = yes
-		}
-	}
-}
-####
-utility_component_template = {
-	key = "nanotech_COMPUTER_LINE_DEFAULT"
-	size = small
-	icon = "GFX_ship_part_computer_default"
-	icon_frame = 1
-	power = @power0
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost0
-		}
-	}
-	ship_behavior = "line"
-
-	class_restriction = { shipclass_military }
-	size_restriction = { nanotech_interdictor }
-	component_set = "combat_computers"
-	upgrades_to = "COMBAT_COMPUTER_LINE_BASIC"
-	ai_tags = { gunship }
-	ai_tag_weight = 0
-
-	ai_weight = {
-		weight = 1
-	}
-}
-utility_component_template = {
-	key = "nanotech_COMPUTER_LINE_BASIC"
-	size = small
-	icon = "GFX_ship_part_computer_line_basic"
-	icon_frame = 1
-	power = @power1
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost1
-		}
-	}
-	class_restriction = { shipclass_military }
-	size_restriction = { nanotech_interdictor }
-	component_set = "combat_computers"
-	ship_behavior = "line"
-	prerequisites = { "tech_combat_computers_1" }
-	upgrades_to = "COMBAT_COMPUTER_LINE_ADVANCED"
-	ai_tags = { gunship }
-	ai_tag_weight = 0
-
-	ship_modifier = {
-		ship_fire_rate_mult = 0.05
-		ship_accuracy_add = 5
-	}
-
-	ai_weight = {
-		weight = 2
-	}
-}
-
-utility_component_template = {
-	key = "nanotech_COMPUTER_LINE_ADVANCED"
-	size = small
-	icon = "GFX_ship_part_computer_line_advanced"
-	icon_frame = 1
-	power = @power2
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost2
-		}
-	}
-	class_restriction = { shipclass_military }
-	size_restriction = { nanotech_interdictor }
-	component_set = "combat_computers"
-	ship_behavior = "line"
-	prerequisites = { "tech_combat_computers_2" }
-	upgrades_to = "COMBAT_COMPUTER_LINE_SAPIENT"
-	ai_tags = { gunship }
-	ai_tag_weight = 0
-
-	ship_modifier = {
-		ship_fire_rate_mult = 0.10
-		ship_accuracy_add = 10
-	}
-
-	ai_weight = {
-		weight = 3
-	}
-}
-
-utility_component_template = {
-	key = "nanotech_COMPUTER_LINE_SAPIENT"
-	size = small
-	icon = "GFX_ship_part_computer_line_sapient"
-	icon_frame = 1
-	power = @power3
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost3
-		}
-	}
-	class_restriction = { shipclass_military shipclass_military_special }
-	size_restriction = { nanotech_interdictor}
-	component_set = "combat_computers"
-	ship_behavior = "line"
-	prerequisites = { "tech_combat_computers_3" }
-	ai_tags = { gunship }
-	ai_tag_weight = 0
-
-	ship_modifier = {
-		ship_fire_rate_mult = 0.20
-		ship_accuracy_add = 20
-	}
-
-	ai_weight = {
-		weight = 5
-		modifier = {
-			factor = 0
-			OR = {
-				has_global_flag = ghost_signal_5_flag
-				has_global_flag = ghost_signal_4_flag
-				has_global_flag = ghost_signal_3_flag
-				has_global_flag = ghost_signal_2_flag
-				has_global_flag = ghost_signal_1_flag
-				has_policy_flag = ai_outlawed
-			}
-		}
-	}
-}
-
-utility_component_template = {
-	key = "nanotech_COMPUTER_LINE_AUTONOMOUS"
-	size = small
-	icon = "GFX_ship_part_computer_line_sapient"
-	icon_frame = 1
-	power = @power3
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = @cost3
-		}
-	}
-	class_restriction = { shipclass_military }
-	size_restriction = { nanotech_interdictor }
-	component_set = "combat_computers"
-	ship_behavior = "line"
-	prerequisites = { "tech_combat_computers_autonomous" }
-	ai_tags = { gunship }
-	ai_tag_weight = 0
-
-	ship_modifier = {
-		ship_fire_rate_mult = 0.20
-		ship_accuracy_add = 20
-	}
-
-	ai_weight = {
-		weight = 5
-	}
-}
 
 
 
@@ -749,7 +279,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = { nanotech_interdictor nanotech_mothership }
+	size_restriction = {  nanotech_mothership }
 	component_set = "combat_computers"
 	ship_behavior = "artillery"
 	prerequisites = { "tech_combat_computers_1" }
@@ -780,7 +310,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = { nanotech_interdictor nanotech_mothership }
+	size_restriction = {  nanotech_mothership }
 	component_set = "combat_computers"
 	ship_behavior = "artillery"
 	prerequisites = { "tech_combat_computers_2" }
@@ -811,7 +341,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = { nanotech_interdictor nanotech_mothership}
+	size_restriction = {  nanotech_mothership}
 	component_set = "combat_computers"
 	ship_behavior = "artillery"
 	prerequisites = { "tech_combat_computers_3" }
@@ -853,7 +383,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = { nanotech_interdictor nanotech_mothership }
+	size_restriction = {  nanotech_mothership }
 	component_set = "combat_computers"
 	ship_behavior = "artillery"
 	prerequisites = { "tech_combat_computers_autonomous" }
@@ -883,7 +413,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase }
-	size_restriction = { nanotech_interdictor nanotech_mothership }
+	size_restriction = {  nanotech_mothership }
 	component_set = "combat_computers"
 	ship_behavior = "artillery"
 	prerequisites = { "tech_precognition_interface" }
@@ -917,7 +447,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = { nanotech_interdictor nanotech_mothership}
+	size_restriction = {  nanotech_mothership}
 	component_set = "combat_computers"
 	ship_behavior = "carrier"
 	prerequisites = { "tech_combat_computers_1" }
@@ -951,7 +481,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = { nanotech_interdictor nanotech_mothership }
+	size_restriction = {  nanotech_mothership }
 	component_set = "combat_computers"
 	ship_behavior = "carrier"
 	prerequisites = { "tech_combat_computers_2" }
@@ -985,7 +515,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = {  nanotech_interdictor nanotech_mothership }
+	size_restriction = {  nanotech_mothership }
 	component_set = "combat_computers"
 	ship_behavior = "carrier"
 	prerequisites = { "tech_combat_computers_3" }
@@ -1030,7 +560,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = { nanotech_interdictor nanotech_mothership}
+	size_restriction = {  nanotech_mothership}
 	component_set = "combat_computers"
 	ship_behavior = "carrier"
 	prerequisites = { "tech_combat_computers_autonomous" }
@@ -1063,7 +593,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = { nanotech_interdictor nanotech_mothership}
+	size_restriction = {  nanotech_mothership}
 	component_set = "combat_computers"
 	ship_behavior = "carrier"
 	prerequisites = { "tech_precognition_interface" }

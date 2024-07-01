@@ -1,5 +1,5 @@
 decision_nanotech_swarm_create_mothership = {
-	icon = decision_gray_goo_ships
+	icon = decision_planet_beam
 	sound = event_structural_collapse
 
 	#enactment_time = 360
@@ -44,10 +44,7 @@ decision_nanotech_swarm_create_mothership = {
 				limit = {
 					is_variable_set = num_lithoid_blockers
 				}
-				change_variable = {
-					which = num_districts_terravore
-					value = num_lithoid_blockers
-				}
+			
 			}
 		}
 		owner = {

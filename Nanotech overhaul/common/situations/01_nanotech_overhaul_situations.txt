@@ -16,7 +16,6 @@ situation_nanotech_create_mothership = {
 
 	category = positive
 	start_value = 0
-
 	on_progress_complete = {
 		custom_tooltip = nanotech_summon_finish_tooltip
 		hidden_effect = {

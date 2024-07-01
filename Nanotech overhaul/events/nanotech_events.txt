@@ -1,0 +1,39 @@
+ #################################
+ #Nanotech overhaul
+ #  By TheGreatZmyh
+ ################################# 
+
+
+ namespace = nanotech
+
+
+
+ situation_event = { 
+	id = nanotech.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		remove_modifier = nanotech_summoning_mothership
+		country_event = { id = nanotech.2 } # Trigger the country event
+		destroy_situation = this
+	}
+	
+}
+
+
+
+
+country_event = { # A Mothership is summoned
+	id = nanotech.2
+	title = "nanotech.2.name"
+	desc = "nanotech.2.desc"
+	picture = GFX_evt_gray_goo_ships
+	show_sound = event_mystic_reveal
+
+	is_triggered_only = yes
+
+	immediate = {
+		nanotech_mothership_ship_generation = yes
+	}
+}
