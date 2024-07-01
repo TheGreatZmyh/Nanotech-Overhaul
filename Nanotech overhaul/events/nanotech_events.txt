@@ -6,39 +6,49 @@
 
  namespace = nanotech
 
-
-
 situation_event = { 
 	id = nanotech.1
-	hide_window = yes
+	title = "nanotech.2.name"
+	desc = "nanotech.2.desc"
+	picture = GFX_evt_gray_goo_ships
+	show_sound = event_mystic_reveal
 	is_triggered_only = yes
 
 	immediate = {
 		owner = {
-		remove_modifier = nanotech_summoning_mothership
-		country_event = { id = nanotech.2 } # Trigger the country event
+			random_owned_design = {
+			limit = { is_ship_size = nanotech_mothership }
+			save_event_target_as = nanotech_mothership_design
+			}
+			create_message = {
+				type = MESSAGE_MOTHERSHIP_BOON
+				localization = MESSAGE_MOTHERSHIP_BOON_DESC
+				days = 30
+				target = prev
+			}
 		}
+		target = {
+			create_fleet = {
+				effect = {
+					set_owner = Prev.owner
+					create_ship = {
+						name = "test"
+						design = event_target:nanotech_mothership_design
+					}
+					set_location = {
+						Target = Prev
+						distance = 20
+						angle = 20
+					}
+				}
+			}
+		remove_modifier = nanotech_summoning_mothership
+		}
+		
 	}
 
 	After = {
 		destroy_situation = this
 	}
 	
-}
-
-
-
-
-country_event = { # A Mothership is summoned
-	id = nanotech.2
-	title = "nanotech.2.name"
-	desc = "nanotech.2.desc"
-	picture = GFX_evt_gray_goo_ships
-	show_sound = event_mystic_reveal
-
-	is_triggered_only = yes
-
-	immediate = {
-		nanotech_mothership_ship_generation = yes
-	}
 }

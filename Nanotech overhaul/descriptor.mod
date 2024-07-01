@@ -7,4 +7,4 @@ tags={
 	"Balance"
 }
 name="Nanotech overhaul"
-supported_version="3.12.4"
+supported_version="3.12.*"
