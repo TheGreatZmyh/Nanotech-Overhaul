@@ -13,18 +13,13 @@ situation_event = {
 	picture = GFX_evt_gray_goo_ships
 	show_sound = event_mystic_reveal
 	is_triggered_only = yes
+	location = target
 
 	immediate = {
 		owner = {
 			random_owned_design = {
 			limit = { is_ship_size = nanotech_mothership }
 			save_event_target_as = nanotech_mothership_design
-			}
-			create_message = {
-				type = MESSAGE_MOTHERSHIP_BOON
-				localization = MESSAGE_MOTHERSHIP_BOON_DESC
-				days = 30
-				target = prev
 			}
 		}
 		target = {
