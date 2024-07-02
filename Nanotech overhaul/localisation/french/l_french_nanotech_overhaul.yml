@@ -2,7 +2,7 @@
 ##buildings##
 building_nanotech_refinery: "Nanite Refinery"
 building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production."
-building_nanotech_Chemical: "Nanite Chemical Plant"
+building_nanotech_Chemical: "Nanite Crystal Plant"
 building_nanotech_Chemical_desc: "These Buildings have specialised in the production of volatile Motes."
 building_nanotech_Crystal: "Nanite Chemical Plant"
 building_nanotech_Crystal_desc: "These Buildings have specialised in the production of volatile Motes."
