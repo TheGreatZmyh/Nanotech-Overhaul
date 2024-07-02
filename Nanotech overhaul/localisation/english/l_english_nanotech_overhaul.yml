@@ -32,16 +32,23 @@ situation_nanotech_create_mothership_desc: "We're using this planet's nanites to
 situation_nanotech_create_mothership_type: "Summon Nanite Mothership"
 nanotech_stage_summoning: "These nanites will find a new purpose"
 
+##buildings##
+building_nanotech_refinery: "Nanite Refinery"
+building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production."
+building_nanotech_Chemical: "Nanite Chemical Plant"
+building_nanotech_Chemical_desc: "These Buildings have specialised in the production of volatile Motes."
+building_nanotech_Crystal: "Nanite Chemical Plant"
+building_nanotech_Crystal_desc: "These Buildings have specialised in the production of volatile Motes."
 
 ####Parciwal's Generator and Factory
- NFac_building_nanotech_factory: "Nanotech-Factory"
+ NFac_building_nanotech_factory: "Nanotech Factory"
  NFac_building_nanotech_factory_desc: "With the help of nanites, we can create Consumer goods with outstanding Quality."
- NFac_building_nanotech_factory_upgrade: "Nanotech-Factory-Complex"
+ NFac_building_nanotech_factory_upgrade: "Nanotech Factory Complex"
  NFac_building_nanotech_factory_upgrade_desc: "With the help of exotic gases, we can create an atmosphere that greatly improves the efficency of our Nanites."
-  NGen_building_nanotech_generator: "Nanotech-Power plant"
+  NGen_building_nanotech_generator: "Nanotech Power plant"
  NGen_building_nanotech_generator_desc: "Thanks to the manipulative qualities of Nanites, we can extract Energy from Volatile Motes."
- NGen_building_nanotech_generator_upgrade: "Nanotech-Power plant-Complex"
- NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech-Power plants."
+ NGen_building_nanotech_generator_upgrade: "Nanotech Power plant Complex"
+ NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech Power plants."
 
 
  ####Parciwal's Subsumer (Planet killer weapon)

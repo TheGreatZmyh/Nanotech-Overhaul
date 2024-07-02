@@ -36,6 +36,13 @@ nanotech_stage_summoning: "These nanites will find a new purpose"
  NGen_building_nanotech_generator_upgrade: "Nanotech-Power plant-Complex"
  NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech-Power plants."
 
+##buildings##
+building_nanotech_refinery: "Nanite Refinery"
+building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production."
+building_nanotech_Chemical: "Nanite Chemical Plant"
+building_nanotech_Chemical_desc: "These Buildings have specialised in the production of volatile Motes."
+building_nanotech_Crystal: "Nanite Chemical Plant"
+building_nanotech_Crystal_desc: "These Buildings have specialised in the production of volatile Motes."
 
  ####Parciwal's Subsumer (Planet killer weapon)
   PLANET_KILLER_NANITE_CONSUMPTION: "Nanite Spreader"

@@ -25,6 +25,13 @@ situation_nanotech_create_mothership_desc: "We're using this planet's nanites to
 situation_nanotech_create_mothership_type: "Summon Nanite Mothership"
 nanotech_stage_summoning: "These nanites will find a new purpose"
 
+##buildings##
+building_nanotech_refinery: "Nanite Refinery"
+building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production."
+building_nanotech_Chemical: "Nanite Chemical Plant"
+building_nanotech_Chemical_desc: "These Buildings have specialised in the production of volatile Motes."
+building_nanotech_Crystal: "Nanite Chemical Plant"
+building_nanotech_Crystal_desc: "These Buildings have specialised in the production of volatile Motes."
 
 ####Parciwal's Generator and Factory
  NFac_building_nanotech_factory: "Nanotech-Factory"
