@@ -32,8 +32,8 @@ NGen_building_nanotech_generator = {
 			energy = 25
 		}
 		upkeep = {
-			nanites = 5
-			volatile_motes = 1
+			nanites = 10
+			volatile_motes = 3
 		}
 	}
 
@@ -67,8 +67,8 @@ NGen_building_nanotech_generator_upgrade = {
 			energy =100
 		}
 		upkeep = {
-			nanites = 20
-			volatile_motes = 5
+			nanites = 30
+			volatile_motes = 10
 		}
 	}
 }
