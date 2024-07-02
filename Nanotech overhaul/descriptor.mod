@@ -1,4 +1,4 @@
-version="0.1"
+version="0.3"
 tags={
 	"Gameplay"
 	"Events"
@@ -6,5 +6,5 @@ tags={
 	"Technologies"
 	"Balance"
 }
-name="Nanotech overhaul"
+name="Nanotech Overhaul"
 supported_version="3.12.*"
