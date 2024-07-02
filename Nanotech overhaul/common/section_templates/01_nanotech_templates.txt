@@ -13,13 +13,6 @@ ship_section_template = {
 	}
 
 	large_utility_slots = 3
-
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
 }
 
 ship_section_template = {
@@ -32,23 +25,16 @@ ship_section_template = {
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
+		locatorname = "l_gun_01"
 	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_02"
 		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_02"
+		locatorname = "l_gun_02"
 	}
 
 	large_utility_slots = 3
-
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
 }
 
 ship_section_template = {
@@ -72,12 +58,7 @@ ship_section_template = {
 
 	large_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
+
 }
 
 ship_section_template = {
@@ -101,12 +82,6 @@ ship_section_template = {
 
 	large_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
 }
 
 #Mid
@@ -137,12 +112,6 @@ ship_section_template = {
 
 	large_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
 }
 
 ship_section_template = {
@@ -172,12 +141,7 @@ ship_section_template = {
 
 	large_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
+
 }
 
 ship_section_template = {
@@ -207,12 +171,7 @@ ship_section_template = {
 
 	large_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
+
 }
 
 #STERN
@@ -229,15 +188,10 @@ ship_section_template = {
 		locatorname = "large_gun_01"
 	}
 
-	large_utility_slots = 1
+	large_utility_slots = 2
 	aux_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
+
 }
 
 ship_section_template = {
@@ -253,15 +207,10 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 
-	large_utility_slots = 1
+	large_utility_slots = 2
 	aux_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
+
 }
 
 ship_section_template = {
@@ -277,14 +226,9 @@ ship_section_template = {
 		locatorname = "strike_craft_locator_01"
 	}
 
-	large_utility_slots = 1
+	large_utility_slots = 2
 	aux_utility_slots = 3
 
-	resources = {
-		category = ship_sections
-		cost = {
-			nanites = 12
-		}
-	}
+
 }
 

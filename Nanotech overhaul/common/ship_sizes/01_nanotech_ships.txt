@@ -29,7 +29,7 @@ nanotech_mothership = {
 	enable_default_design = yes
 	is_designable = yes
 	
-	construction_type = starbase_shipyard
+
 	selectable = {host_has_dlc = "Apocalypse"}
     combat_disengage_chance = 1.25
 	required_component_set = "power_core"
@@ -40,47 +40,13 @@ nanotech_mothership = {
 
 	components_add_to_cost = no
 potential_country = {
-		has_tradition = tr_nanotech_5
+		has_tradition = tr_nanotech_finish
 	}
 
 
-	resources = {
-		category = ships
-		cost = {
-			nanites = 100000
-	    }
-	}
-	ai_ship_data = {
-		fraction = {
-			base = 0
-			modifier = {
-				add = 50
-				uses_standard_ship_sizes = yes
-			}
-			modifier = {
-				factor = 1.5
-				is_preferred_weapons = weapon_type_strike_craft
-			}
-			modifier = {
-				factor = 1.5
-				has_valid_civic = civic_hive_devouring_swarm
-			}
-			modifier = {
-				factor = 1.5
-				is_machine_empire = yes
-			}
-			modifier = {
-				factor = 1.5
-				has_valid_ai_personality = yes
-				OR = {
-					has_ai_personality = honorbound_warriors
-					has_ai_personality = hegemonic_imperialists
-					has_ai_personality = democratic_crusaders
-					has_ai_personality = became_the_crisis
-				}
-			}
-		}
-	}
+
+	
 }
+
 
 

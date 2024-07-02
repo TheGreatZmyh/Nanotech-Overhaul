@@ -1,6 +1,6 @@
  #################################
  #Nanotech overhaul
- #  By TheGreatZmyh
+ #  By TheGreatZmyh and Parciwal
  ################################# 
 
 
@@ -13,7 +13,6 @@ situation_event = {
 	picture = GFX_evt_gray_goo_ships
 	show_sound = event_mystic_reveal
 	is_triggered_only = yes
-	location = target
 
 	immediate = {
 		owner = {
@@ -21,13 +20,19 @@ situation_event = {
 			limit = { is_ship_size = nanotech_mothership }
 			save_event_target_as = nanotech_mothership_design
 			}
+			create_message = {
+				type = MESSAGE_MOTHERSHIP_BOON
+				localization = MESSAGE_MOTHERSHIP_BOON_DESC
+				days = 30
+				target = prev
+			}
 		}
 		target = {
 			create_fleet = {
 				effect = {
 					set_owner = Prev.owner
 					create_ship = {
-						name = "test"
+						name = "Nanite Mothership"
 						design = event_target:nanotech_mothership_design
 					}
 					set_location = {
@@ -37,13 +42,17 @@ situation_event = {
 					}
 				}
 			}
+			remove_planet_flag = summoning_mothership
 		remove_modifier = nanotech_summoning_mothership
+		add_modifier = {
+			modifier = nanotech_nanites_devastated
+			days = 1800
 		}
-		
-	}
-
-	After = {
+		add_planet_devastation = 50
+		}
 		destroy_situation = this
 	}
+
+
 	
 }

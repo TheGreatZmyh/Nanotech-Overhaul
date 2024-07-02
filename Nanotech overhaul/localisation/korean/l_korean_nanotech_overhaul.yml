@@ -1,30 +1,4 @@
 ﻿l_korean:
- NANOTECH_MOTHERSHIP_BOW_G2: "$NANOTECH_MOTHERSHIP_MID_G3$"
- NANOTECH_MOTHERSHIP_BOW_H2: "$NANOTECH_MOTHERSHIP_MID_H3$"
- NANOTECH_MOTHERSHIP_BOW_L2: "$NANOTECH_MOTHERSHIP_MID_L3$"
- NANOTECH_MOTHERSHIP_BOW_XL1: "Mothership Siege"
- NANOTECH_MOTHERSHIP_MID_G3: "Mothership Missiles"
- NANOTECH_MOTHERSHIP_MID_H3: "Mothership Hangers"
- NANOTECH_MOTHERSHIP_MID_L3: "Mothership Artillery"
- NANOTECH_MOTHERSHIP_STERN_G1: "$NANOTECH_MOTHERSHIP_MID_G3$"
- NANOTECH_MOTHERSHIP_STERN_H1: "$NANOTECH_MOTHERSHIP_MID_H3$"
- NANOTECH_MOTHERSHIP_STERN_L1: "$NANOTECH_MOTHERSHIP_MID_L3$"
- NANOTECH_interdictor: "$NAME_Nanite_Interdictor$"
- nanotech_interdictor_plural: "Nanite $graygoo_interdictor_plural$"
- nanotech_mothership: "$NAME_Nanite_Mothership$"
- nanotech_mothership_plural: "Nanite $graygoo_mothership_plural$"
-decision_nanotech_swarm_create_mothership: "Summon Nanite Mothership"
-decision_nanotech_swarm_create_mothership_desc: "Create a Mothership using this planet's nanites"
-nanotech_restraint_effect: "We changed our mind and dont need another mothership"
-nanotech.2.name: "Mothership summoning complete"
-nanotech.2.desc: "Our project to summon an Mothership using this planet's nanites has been completed"
-nanotech_summon_finish_tooltip: "Use nanites of this world to summon mothership"
-nanotech_summon_effect: "Use nanites of this world to summon mothership"
-situation_nanotech_create_mothership: "Summoning Nanite Mothership"
-situation_nanotech_create_mothership_desc: "We're using this planet's nanites to create Nanite Mothership"
-situation_nanotech_create_mothership_type: "Summon Nanite Mothership"
-nanotech_stage_summoning: "These nanites will find a new purpose"
-
 ##buildings##
 building_nanotech_refinery: "Nanite Refinery"
 building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production."
@@ -32,25 +6,95 @@ building_nanotech_Chemical: "Nanite Chemical Plant"
 building_nanotech_Chemical_desc: "These Buildings have specialised in the production of volatile Motes."
 building_nanotech_Crystal: "Nanite Chemical Plant"
 building_nanotech_Crystal_desc: "These Buildings have specialised in the production of volatile Motes."
-
-####Parciwal's Generator and Factory
- NFac_building_nanotech_factory: "Nanotech-Factory"
- NFac_building_nanotech_factory_desc: "With the help of nanites, we can create Consumer goods with outstanding Quality."
- NFac_building_nanotech_factory_upgrade: "Nanotech-Factory-Complex"
- NFac_building_nanotech_factory_upgrade_desc: "With the help of exotic gases, we can create an atmosphere that greatly improves the efficency of our Nanites."
-  NGen_building_nanotech_generator: "Nanotech-Power plant"
- NGen_building_nanotech_generator_desc: "Thanks to the manipulative qualities of Nanites, we can extract Energy from Volatile Motes."
- NGen_building_nanotech_generator_upgrade: "Nanotech-Power plant-Complex"
- NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech-Power plants."
-
-
- ####Parciwal's Subsumer (Planet killer weapon)
-  PLANET_KILLER_NANITE_CONSUMPTION: "Nanite Spreader"
- PLANET_KILLER_NANITE_CONSUMPTION_ACTION: "Subsume"
- FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANITE_CONSUMPTION: "Preparing to subsume $PLANET|Y$"
- MESSAGE_DESC_FOR_PLANET_KILLER_NANITE_CONSUMPTION: "was subsumed by nanobots from"
- PLANET_KILLER_NANITE_CONSUMPTION_DESC: "Swarms of nanobots are dispersed in the atmosphere. In just matter of days they consume the entire planet, including all residents and infrastructure, transforming it into a giant mass of nanites ."
- planet_subsumed.101.name: "World subsumed"
- planet_subsumed.101.desc: "After the swarm of specialised nanites from [From.From:Getname] touched the surface of [From.Getname] , they immeadiatly began spreading.\n\ After a few weeks, the Planet, including all residents and infrastructure, was transformed into a giant mass of nanites."
- WaCol_will_destroy_colony: "With this Action, every Pop will be killed and every District and building will be destroyed."
- WaCol_is_nanite_world: "This already is a Nanite World"
+ NANOTECH_MOTHERSHIP_BOW_G2: "$NANOTECH_MOTHERSHIP_MID_G3$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_H2: "$NANOTECH_MOTHERSHIP_MID_H3$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_L2: "$NANOTECH_MOTHERSHIP_MID_L3$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_XL1: "Mothership Siege" #NT!
+ NANOTECH_MOTHERSHIP_MID_G3: "Mothership Missiles" #NT!
+ NANOTECH_MOTHERSHIP_MID_H3: "Mothership Hangers" #NT!
+ NANOTECH_MOTHERSHIP_MID_L3: "Mothership Artillery" #NT!
+ NANOTECH_MOTHERSHIP_STERN_G1: "$NANOTECH_MOTHERSHIP_MID_G3$" #NT!
+ NANOTECH_MOTHERSHIP_STERN_H1: "$NANOTECH_MOTHERSHIP_MID_H3$" #NT!
+ NANOTECH_MOTHERSHIP_STERN_L1: "$NANOTECH_MOTHERSHIP_MID_L3$" #NT!
+ nanotech_mothership: "$NAME_Nanite_Mothership$" #NT!
+ nanotech_mothership_plural: "Nanite $graygoo_mothership_plural$" #NT!
+ decision_nanotech_swarm_create_mothership: "Summon Nanite Mothership" #NT!
+ decision_nanotech_swarm_create_mothership_desc: "Create a Mothership using this planet's nanites" #NT!
+ nanotech_restraint_effect: "We changed our mind and dont need another mothership" #NT!
+ nanotech.2.name: "Mothership summoning complete" #NT!
+ nanotech.2.desc: "Our project to summon an Mothership using this planet's nanites has been completed" #NT!
+ nanotech_summon_finish_tooltip: "Use nanites of this world to summon mothership" #NT!
+ nanotech_summon_effect: "Use nanites of this world to summon mothership" #NT!
+ situation_nanotech_create_mothership: "Summoning Nanite Mothership" #NT!
+ situation_nanotech_create_mothership_desc: "We're using this planet's nanites to create Nanite Mothership" #NT!
+ situation_nanotech_create_mothership_type: "Summon Nanite Mothership" #NT!
+ nanotech_stage_summoning: "These nanites will find a new purpose" #NT!
+ nanotech_summoning_mothership: "Mothership summoning" #NT!
+ nanotech_summoning_mothership_desc: "Nanites of this world are currently used to summon a mothership" #NT!
+ nanotech_nanites_devastated: "Nanites devastated" #NT!
+ nanotech_nanites_devastated_desc: "Nanites of this world were used in the creation of the mothership and are now left severely devastated" #NT!
+ nanotech_mothership_FISSION_REACTOR: "$FISSION_REACTOR$" #NT!
+ nanotech_mothership_FUSION_REACTOR: "$FUSION_REACTOR$" #NT!
+ nanotech_mothership_COLD_FUSION_REACTOR: "$COLD_FUSION_REACTOR$" #NT!
+ nanotech_mothership_ANTIMATTER_REACTOR: "$ANTIMATTER_REACTOR$" #NT!
+ nanotech_mothership_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$" #NT!
+ nanotech_mothership_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$" #NT!
+ nanotech_mothership_FISSION_REACTOR_DESC: "$FISSION_REACTOR_DESC$" #NT!
+ nanotech_mothership_FUSION_REACTOR_DESC: "$FUSION_REACTOR_DESC$" #NT!
+ nanotech_mothership_COLD_FUSION_REACTOR_DESC: "$COLD_FUSION_REACTOR_DESC$" #NT!
+ nanotech_mothership_ANTIMATTER_REACTOR_DESC: "$ANTIMATTER_REACTOR_DESC$" #NT!
+ nanotech_mothership_ZERO_POINT_REACTOR_DESC: "$ZERO_POINT_REACTOR_DESC$" #NT!
+ nanotech_mothership_DARK_MATTER_REACTOR_DESC: "$DARK_MATTER_REACTOR_DESC$" #NT!
+ nanotech_COMPUTER_ARTILLERY_BASIC: "Combat Computer (Artillery)" #NT!
+ nanotech_COMPUTER_CARRIER_BASIC: "Combat Computer (Carrier)" #NT!
+ nanotech_COMPUTER_ARTILLERY_BASIC_DESC: "$tech_combat_computers_1_desc$" #NT!
+ nanotech_COMPUTER_CARRIER_BASIC_DESC: "$tech_combat_computers_1_desc$" #NT!
+ nanotech_COMPUTER_ARTILLERY_ADVANCED: "Advanced Combat Computer (Artillery)" #NT!
+ nanotech_COMPUTER_CARRIER_ADVANCED: "Advanced Combat Computer (Carrier)" #NT!
+ nanotech_COMPUTER_ARTILLERY_ADVANCED_DESC: "$tech_combat_computers_2_desc$" #NT!
+ nanotech_COMPUTER_CARRIER_ADVANCED_DESC: "$tech_combat_computers_2_desc$" #NT!
+ nanotech_COMPUTER_ARTILLERY_SAPIENT: "Sapient Combat Computer (Artillery)" #NT!
+ nanotech_COMPUTER_CARRIER_SAPIENT: "Sapient Combat Computer (Carrier)" #NT!
+ nanotech_COMPUTER_ARTILLERY_SAPIENT_DESC: "$tech_combat_computers_3_desc$" #NT!
+ nanotech_COMPUTER_CARRIER_SAPIENT_DESC: "$tech_combat_computers_3_desc$" #NT!
+ nanotech_COMPUTER_ARTILLERY_AUTONOMOUS: "Autonomous Ship Intellect (Artillery)" #NT!
+ nanotech_COMPUTER_CARRIER_AUTONOMOUS: "Autonomous Ship Intellect (Carrier)" #NT!
+ nanotech_COMPUTER_ARTILLERY_AUTONOMOUS_DESC: "$tech_combat_computers_autonomous_desc$" #NT!
+ nanotech_COMPUTER_CARRIER_AUTONOMOUS_DESC: "$tech_combat_computers_autonomous_desc$" #NT!
+ nanotech_mothership_SHIP_THRUSTER_1: "Chemical Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_1_DESC: "Simple yet moderately effective chemical thrusters that rely on combustible propellant to generate thrust." #NT!
+ nanotech_mothership_SHIP_THRUSTER_2: "Ion Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_2_DESC: "These electric thrusters use beams of ions to generate thrust without the need for propellant." #NT!
+ nanotech_mothership_SHIP_THRUSTER_3: "Plasma Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_3_DESC: "An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability." #NT!
+ nanotech_mothership_SHIP_THRUSTER_4: "Impulse Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_4_DESC: "These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions." #NT!
+ nanotech_mothership_SHIP_THRUSTER_5: "Dark Matter Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_5_DESC: "These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics." #NT!
+ nanotech_PERDITION_BEAM: "Perdition Beam" #NT!
+ nanotech_PERDITION_BEAM_TITAN: "Perdition Beam" #NT!
+ nanotech_PERDITION_BEAM_DESC: "A massive array of linked energy amplification conduits that fires a beam of unprecedented firepower." #NT!
+ nanotech_ARCHAEO_TITAN: "Ancient Ruination Glare" #NT!
+ nanotech_ARCHAEO_TITAN_DESC: "Tremendous medium range firepower will enable our titans to break through enemy lines. These ancient cannons were once the foundation upon which a galactic empire was built" #NT!
+  
+ ####Parciwal's Generator and Factory 
+ NFac_building_nanotech_factory: "Nanotech-Factory" #NT!
+ NFac_building_nanotech_factory_desc: "With the help of nanites, we can create Consumer goods with outstanding Quality." #NT!
+ NFac_building_nanotech_factory_upgrade: "Nanotech-Factory-Complex" #NT!
+ NFac_building_nanotech_factory_upgrade_desc: "With the help of exotic gases, we can create an atmosphere that greatly improves the efficency of our Nanites." #NT!
+ NGen_building_nanotech_generator: "Nanotech-Power plant" #NT!
+ NGen_building_nanotech_generator_desc: "Thanks to the manipulative qualities of Nanites, we can extract Energy from Volatile Motes." #NT!
+ NGen_building_nanotech_generator_upgrade: "Nanotech-Power plant-Complex" #NT!
+ NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech-Power plants." #NT!
+  
+  
+  ####Parciwal's Subsumer (Planet killer weapon) 
+ PLANET_KILLER_NANITE_CONSUMPTION: "Nanite Spreader" #NT!
+ PLANET_KILLER_NANITE_CONSUMPTION_ACTION: "Subsume" #NT!
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANITE_CONSUMPTION: "Preparing to subsume $PLANET|Y$" #NT!
+ MESSAGE_DESC_FOR_PLANET_KILLER_NANITE_CONSUMPTION: "was subsumed by nanobots from" #NT!
+ PLANET_KILLER_NANITE_CONSUMPTION_DESC: "Swarms of nanobots are dispersed in the atmosphere. In just matter of days they consume the entire planet, including all residents and infrastructure, transforming it into a giant mass of nanites ." #NT!
+ planet_subsumed.101.name: "World subsumed" #NT!
+ planet_subsumed.101.desc: "After the swarm of specialised nanites from [From.From:Getname] touched the surface of [From.Getname] , they immeadiatly began spreading.\n\ After a few weeks, the Planet, including all residents and infrastructure, was transformed into a giant mass of nanites." #NT!
+ WaCol_will_destroy_colony: "With this Action, every Pop will be killed and every District and building will be destroyed." #NT!
+ WaCol_is_nanite_world: "This already is a Nanite World" #NT!

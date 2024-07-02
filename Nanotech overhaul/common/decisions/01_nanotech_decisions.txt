@@ -15,6 +15,7 @@ decision_nanotech_swarm_create_mothership = {
 			has_tradition = tr_nanotech_finish 
 		}
 		NOT = {
+			has_modifier = nanotech_nanites_devastated
 			has_planet_flag = summoning_mothership
 		}
 	}
@@ -55,13 +56,35 @@ decision_nanotech_swarm_create_mothership = {
 		}
 	}
 
-	ai_weight = {
-		weight = 5
-
-		# don't wreck worlds you want to keep
-		modifier = {
-			factor = 0
-			is_lithoid_devouring_swarm_consumption_world = no
+	ai_ship_data = {
+		fraction = {
+			base = 0
+			modifier = {
+				add = 50
+				uses_standard_ship_sizes = yes
+			}
+			modifier = {
+				factor = 1.5
+				is_preferred_weapons = weapon_type_strike_craft
+			}
+			modifier = {
+				factor = 1.5
+				has_valid_civic = civic_hive_devouring_swarm
+			}
+			modifier = {
+				factor = 1.5
+				is_machine_empire = yes
+			}
+			modifier = {
+				factor = 1.5
+				has_valid_ai_personality = yes
+				OR = {
+					has_ai_personality = honorbound_warriors
+					has_ai_personality = hegemonic_imperialists
+					has_ai_personality = democratic_crusaders
+					has_ai_personality = became_the_crisis
+				}
+			}
 		}
 	}
 }

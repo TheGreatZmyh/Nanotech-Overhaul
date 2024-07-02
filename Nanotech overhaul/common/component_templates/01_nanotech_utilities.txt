@@ -5,19 +5,6 @@
 @titan_power_5 = 3200
 @titan_power_6 = 4200
 
-@cruiser_power_1 = 280
-@cruiser_power_2 = 360
-@cruiser_power_3 = 480
-@cruiser_power_4 = 620
-@cruiser_power_5 = 800
-@cruiser_power_6 = 1030
-
-@cruiser_th_power_1 = -40
-@cruiser_th_power_2 = -60
-@cruiser_th_power_3 = -80
-@cruiser_th_power_4 = -100
-@cruiser_th_power_5 = -120
-
 @power0 = -5
 @power1 = -10
 @power2 = -15
@@ -613,3 +600,6 @@ utility_component_template = {
 		}
 	}
 }
+
+
+
