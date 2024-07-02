@@ -22,6 +22,14 @@
  situation_nanotech_create_mothership_desc: "We're using this planet's nanites to create Nanite Mothership" #NT!
  situation_nanotech_create_mothership_type: "Summon Nanite Mothership" #NT!
  nanotech_stage_summoning: "These nanites will find a new purpose" #NT!
+  
+ ##buildings## 
+ building_nanotech_refinery: "Nanite Refinery" #NT!
+ building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production." #NT!
+ building_nanotech_Chemical: "Nanite Chemical Plant" #NT!
+ building_nanotech_Chemical_desc: "These Buildings have specialised in the production of volatile Motes." #NT!
+ building_nanotech_Crystal: "Nanite Crystal Plant" #NT!
+ building_nanotech_Crystal_desc: "These Buildings have specialised in the production of Rare Crystals." #NT!
  nanotech_summoning_mothership: "Mothership summoning" #NT!
  nanotech_summoning_mothership_desc: "Nanites of this world are currently used to summon a mothership" #NT!
  nanotech_nanites_devastated: "Nanites devastated" #NT!
