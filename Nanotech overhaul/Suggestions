@@ -7,8 +7,8 @@ Nanotech world will get bonuses to
 less bombardment damage (-25% more or less)
 +50% speed in  devastation decay (Cuz duh nanits) Parciwal says that pretrigger is needed and gatekeeper to make it work  
 (If a system was occupied, we could check if the planet was bombardet and then do a staggered event fire (with multiple fires with delay). That would require 3 events i think, one that triggers the second if a system is occupied, the second calls itself until the system is unoccupied and the devastion is 0, and if the devastation ever gets above 0 and bombardment stops, the 3rd event would trigger monthly decreasing devestation by some amount until it's 0 so the second event stops. (Bearbeitet))
-
-
+Ability to specialise the nanotech world maybe change Machine world AP for nanotech so that you can turn Nanite worlds into Advanced Nanite worlds(name can be changed)
+nanotech tech world will increase scientist output but will give them nanite upkeep 
 Nanotech Arcologies(maybe ask Planteray diversity dev to do it)
 
 Starbase building 
@@ -38,3 +38,5 @@ Make a decision allowing Obsessional directive to turn entire planets into a con
 
 Nanotech related Crisis path (only for machine intelligence)
 5 levels cuz UI will break if not 5
+
+
