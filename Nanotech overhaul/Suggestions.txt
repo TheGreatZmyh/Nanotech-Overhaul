@@ -51,5 +51,17 @@ Make a decision allowing Obsessional directive to turn entire planets into a con
 
 Nanotech related Crisis path (only for machine intelligence)
 5 levels cuz UI will break if not 5
+Level 1:
+Decrease the cost of nanite swarmers,allow players to research advanced nanite weapons, debuff to opinion of all non-nanite empires -50(maybe more), decision to consume asteroids turning them into harvested asteroids
+level  2
+ nanite armor,buff to all nanite weapons,decision to consume non habitable planets , -100 opinion debuff, tier 3 nanite building??? ,
+LEvel 3
+bigger ship called nanite harvest engine (like star eater but consumes systems instead of destroying them) has upgraded nanite storm aura
+Harvest engine  tier 1
 
-bigger ship called nanite harvest engine(dunno what level to give it on most likely level 3 or 4 or even 5)
+Level 4:
+Harvest engine  tier 2
+
+Level 5 - everyone will start a galactic war  against you as usually.
+Galactic Harvester - Crisis Megastructure
+Upon destruction, The Harvest engine  will release an uncontrollable nanite swarm which will consume  the entire system and every fleet inside of it
