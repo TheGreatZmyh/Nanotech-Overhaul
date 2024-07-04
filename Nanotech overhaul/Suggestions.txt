@@ -49,19 +49,22 @@ Trait that boosts output but also increases nanite consumption of nanite buildin
 Make a decision allowing Obsessional directive to turn entire planets into a consumer goods( can be uninhabited but it destroys all deposits and gives little consumer goods)
 
 
-Nanotech related Crisis path (only for machine intelligence)
+Nanotech related Crisis path (only for machine intelligence) 
 5 levels cuz UI will break if not 5
 Level 1:
-Decrease the cost of nanite swarmers,allow players to research advanced nanite weapons, debuff to opinion of all non-nanite empires -50(maybe more), decision to consume asteroids turning them into harvested asteroids
+The Nanite trait is updated to the Advanced Nanite trait. Decrease the cost of nanite swarmers, allow players to research advanced nanite weapons, debuff to opinion of all non-nanite empires -50(maybe more), decision to consume asteroids turning them into harvested asteroids
 level  2
- nanite armor,buff to all nanite weapons,decision to consume non habitable planets , -100 opinion debuff, tier 3 nanite building??? ,
-LEvel 3
-bigger ship called nanite harvest engine (like star eater but consumes systems instead of destroying them) has upgraded nanite storm aura
-Harvest engine  tier 1
-
+ nanite armor, buff to all nanite weapons, the decision to consume non-habitable planets, -100 opinion debuff, tier 3 nanite building??? ,
+Level 3
+a bigger ship called Nanite Harvest Engine (like Star Eater but consumes systems instead of destroying them) has upgraded nanite storm aura
+Harvest engine  tier 1 - Harvests planets making them uninhabitable gives big amount of nanites
+Espionage mission to plant Nanite Core on one of the enemy planets (maybe the ability to choose what planet  capital has only 10% of success ) which will then start consuming a planet in 3-4 stages enemy starts a situation in which he can try to stop Nanite core from destroying  a planet and if succeeds will get a planetary blocker that gives him 100 nanites monthly . -150 opinion to non-nanite empires
 Level 4:
-Harvest engine  tier 2
-
-Level 5 - everyone will start a galactic war  against you as usually.
+Harvest engine  tier 2 (becomes bigger and overall better) upon the harvesting of a planet may spawn nanite fleet, gives more nanites per harvest, can harvest gas giants takes a year to do so
+Nanite-infused shields (each shield gives armor and hull regen)  -175 opinion to non-nanite empires
+Level 5 - everyone will start a galactic war  against you as usual.
+can take control of Grey Tempest 
+Advanced Nanite Trait is updated to Perfected Nanites
 Galactic Harvester - Crisis Megastructure
+Harvest engine  tier 3 - can now harvest entire systems and harvests faster 
 Upon destruction, The Harvest engine  will release an uncontrollable nanite swarm which will consume  the entire system and every fleet inside of it
