@@ -47,7 +47,7 @@
  aura_starbase_nanotech_storm: "Defensive Aura - Sensor Blocker" #NT!
  nanotech_storm_caster: "Stellar Nanite Diffuser" #NT!
  sm_nanotech_storm_caster: "Stellar Nanite Diffuser" #NT!
- sm_nanotech_caster_desc_modifier: "Creates an §YNanite CLoud§! in the system:\nBlocks §YSensors§! \nReduces §YShip Speed§! and §YFire Rate§!\nDecreases §YArmor§! of enemy ships" #NT!
+ sm_nanotech_caster_desc_modifier: "Creates an §YNanite Cloud§! in the system:\nBlocks §YSensors§! \nReduces §YShip Speed§! and §YFire Rate§!\nDecreases §YArmor§! of enemy ships" #NT!
  sm_nanotech_storm_caster_desc: "Our advancements in Nanite technology allow us to release a cloud of specialized nanite straight into space." #NT!
  nanotech_storm_caster_desc: "Our advancements in Nanite technology allow us to release a cloud of specialized nanite straight into space." #NT!
  tech_nanotech_caster: "Stellar Nanite Diffuser" #NT!
