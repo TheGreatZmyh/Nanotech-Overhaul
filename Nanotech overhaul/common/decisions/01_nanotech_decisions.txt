@@ -56,31 +56,7 @@ decision_nanotech_swarm_create_mothership = {
 		}
 	}
 
-	ai_ship_data = {
-		fraction = {
-			base = 0
-			modifier = {
-				add = 50
-				uses_standard_ship_sizes = yes
-			}
-			modifier = {
-				factor = 1.5
-				has_valid_civic = civic_hive_devouring_swarm
-			}
-			modifier = {
-				factor = 1.5
-				is_machine_empire = yes
-			}
-			modifier = {
-				factor = 1.5
-				has_valid_ai_personality = yes
-				OR = {
-					has_ai_personality = honorbound_warriors
-					has_ai_personality = hegemonic_imperialists
-					has_ai_personality = democratic_crusaders
-					has_ai_personality = became_the_crisis
-				}
-			}
-		}
-	}
+ai_weight = {
+	modifier = 10
+}
 }
