@@ -1,0 +1,13 @@
+tech_nanotech_caster = {
+	cost = @tier4cost3
+	area = engineering
+	category = { industry }
+	tier = 4
+	is_rare = yes
+	ai_update_type = all
+	weight = 0
+
+	potential = {
+		has_tradition = tr_nanotech_finish 
+	}
+}

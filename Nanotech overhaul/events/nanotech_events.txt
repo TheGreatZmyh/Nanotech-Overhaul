@@ -63,7 +63,9 @@ system_event = {
   is_triggered_only = yes
 
   trigger = {
-	  owner = { NOT = { has_modifier = sr_nanite_deficit } }
+	  owner = { NOT = {
+		has_deficit = nanites
+	}}
 	  NOT = { has_modifier = nanotech_storm }
 	  starbase = {
 		  count_starbase_buildings = { 
@@ -97,7 +99,7 @@ system_event = {
 		
 		  starbase = {
 			  add_starbase_component = {
-				  component = "STARBASE_AURA_nanotech_STORM"
+				  component = "STARBASE_AURA_NANOTECH_STORM"
 			  }
 		  }
 	  }
@@ -144,11 +146,11 @@ country_event = {
 
 	trigger = {
 		has_monthly_income = {
-			resource = sr_zro
+			resource = nanites
 			value < 0
 		}
 		resource_stockpile_compare = {
-			resource = sr_zro
+			resource = nanites
 			value = 0
 		}
 		
@@ -169,12 +171,12 @@ country_event = {
 				limit = {
 					any_ship_in_system = {
 						is_ship_class = shipclass_starbase
-						has_component = "STARBASE_AURA_nanotech_STORM"
+						has_component = "STARBASE_AURA_NANOTECH_STORM"
 					}
 				}
 				starbase = {
 					remove_starbase_component = {
-						component = "STARBASE_AURA_nanotech_STORM"
+						component = "STARBASE_AURA_NANOTECH_STORM"
 					}
 				}
 			}
@@ -244,11 +246,7 @@ country_event = {
 				}
 			}
 			if = {
-				limit = {
-					space_owner = {
-						has_ascension_perk = ap_archaeoengineers
-					}
-				}
+		
 				starbase = {
 					add_starbase_component = {
 						component = "STARBASE_AURA_nanotech_STORM"

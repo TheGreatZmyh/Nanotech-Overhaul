@@ -10,3 +10,6 @@ nanotech_nanites_devastated = {
 	planet_buildings_produces_mult = -0.05
 	planet_buildings_upkeep_mult = 0.05
 }
+nanotech_storm = {
+	
+}

@@ -38,7 +38,6 @@ NFac_building_nanotech_factory = {
 			energy = 30
 		}
 		produces = {
-			consumer_goods = 25
 		}
 	}
 }
@@ -70,7 +69,6 @@ NFac_building_nanotech_factory_upgrade = {
 			exotic_gases = 2
 		}
 		produces = {
-			consumer_goods = 70
 		}
 	}
 }

@@ -1,0 +1,6 @@
+on_monthly_pulse_country = {
+	events = {
+		nanotech.4
+		nanotech.5
+	}
+}
