@@ -1,5 +1,5 @@
 nanotech_storm_caster = {
-	icon = "nanotech_storm_caster"
+	icon = "GFX_starbase_nanotech_storm_caster"
 	construction_days = 360
 
 	potential = {

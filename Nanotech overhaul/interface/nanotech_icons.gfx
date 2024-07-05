@@ -1,0 +1,4 @@
+spriteType = {
+	name = "GFX_starbase_nanotech_storm_caster"
+	texturefile = "gfx/interface/icons/modules/nanotech_storm_caster.dds"
+}

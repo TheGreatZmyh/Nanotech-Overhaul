@@ -23,6 +23,14 @@ situation_nanotech_create_mothership_desc: "We're using this planet's nanites to
 situation_nanotech_create_mothership_type: "Summon Nanite Mothership"
 nanotech_stage_summoning: "These nanites will find a new purpose"
 
+####starbase building
+nanotech_storm_caster: "Stellar Nanite Diffuser"
+sm_nanotech_storm_caster: "Stellar Nanite Diffuser"
+sm_nanotech_caster_desc_modifier: "Our advancements in Nanite technology allow us to release a cloud of specialized nanite straight into space."
+tech_nanotech_caster: "Stellar Nanite Diffuser"
+tech_nanotech_caster_desc: "If nanites are just a small robots, what stops us from turning them into a microscopic ships "
+
+
 ##buildings##
 building_nanotech_refinery: "Nanite Refinery"
 building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production."
