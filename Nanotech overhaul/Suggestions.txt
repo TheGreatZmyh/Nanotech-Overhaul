@@ -1,5 +1,6 @@
 alloy tier 2
-specialised rare resources buildings or upgrade to existing one
+specialised rare resources buildings(i think its also done)
+ or upgrade to existing one
 rare resource building for dark matter (needs something more than just nanites)
 decision to recycle ships/pops
 
@@ -11,7 +12,7 @@ Ability to specialise the nanotech world maybe change Machine world AP for nanot
 nanotech tech world will increase scientist output but will give them nanite upkeep 
 Nanotech Arcologies(maybe ask Planteray diversity dev to do it)
 
-Starbase building ||Zmyh is working on it||
+Starbase building ||Its done||
 Nanite Stellar Diffuse 
 Creates Artificial Nanite Storm 
 Blocks Sensors
