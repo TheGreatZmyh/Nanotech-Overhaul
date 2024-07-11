@@ -1,4 +1,4 @@
-NFac_building_nanotech_factory = {
+building_nanotech_cauldron = {
 	base_buildtime = @b2_time
 
 	category = manufacturing
@@ -6,7 +6,6 @@ NFac_building_nanotech_factory = {
 	potential = {
 		exists = owner
 		owner = { has_tradition = tr_nanotech_2 }
-		owner = { country_uses_consumer_goods = yes }
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
 	}
@@ -16,7 +15,7 @@ NFac_building_nanotech_factory = {
 	}
 
 	upgrades = {
-		NFac_building_nanotech_factory_upgrade
+		building_nanotech_cauldron_upgrade
 	}
 
 	destroy_trigger = {
@@ -38,18 +37,20 @@ NFac_building_nanotech_factory = {
 			energy = 30
 		}
 		produces = {
-			consumer_goods = 25
+			alloys = 15
 		}
 	}
 }
 
-NFac_building_nanotech_factory_upgrade = {
+
+
+building_nanotech_cauldron_upgrade = {
 	base_buildtime = @b2_time
 
 	category = manufacturing
 
 	can_build = no
-	prerequisites = { "tech_nanotech_advanced_alloys_and_factory" }
+    prerequisites = { "tech_nanotech_advanced_alloys_and_factory" }
 	destroy_trigger = {
 		exists = owner
 		OR = {
@@ -63,14 +64,16 @@ NFac_building_nanotech_factory_upgrade = {
 		category = planet_buildings
 		cost = {
 			alloys = @b3_minerals
+			nanites = 3000
 		}
 		upkeep = {
-			nanites = 10
-			energy = 50
+			nanites = 15
+			energy = 70
 			exotic_gases = 2
+			volatile_motes = 3
 		}
 		produces = {
-			consumer_goods = 70
+			alloys = 30
 		}
 	}
 }

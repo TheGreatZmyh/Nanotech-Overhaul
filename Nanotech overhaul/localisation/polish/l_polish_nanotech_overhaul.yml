@@ -39,7 +39,7 @@
  building_nanotech_refinery: "Nanite Refinery" #NT!
  building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production." #NT!
  building_nanotech_Chemical: "Nanite Chemical Plant" #NT!
- building_nanotech_Chemical_desc: "These Buildings have specialised in the production of volatile Motes." #NT!
+ building_nanotech_Chemical_desc: "These Buildings have specialised in the production of Volatile Motes." #NT!
  building_nanotech_Crystal: "Nanite Crystal Plant" #NT!
  building_nanotech_Crystal_desc: "These Buildings have specialised in the production of Rare Crystals." #NT!
  nanotech_summoning_mothership: "Mothership summoning" #NT!
@@ -91,18 +91,18 @@
  nanotech_ARCHAEO_TITAN_DESC: "Tremendous medium range firepower will enable our titans to break through enemy lines. These ancient cannons were once the foundation upon which a galactic empire was built" #NT!
   
  ####Parciwal's Generator and Factory 
- NFac_building_nanotech_factory: "Nanotech-Factory" #NT!
+ NFac_building_nanotech_factory: "Nanotech Factory" #NT!
  NFac_building_nanotech_factory_desc: "With the help of nanites, we can create Consumer goods with outstanding Quality." #NT!
- NFac_building_nanotech_factory_upgrade: "Nanotech-Factory-Complex" #NT!
+ NFac_building_nanotech_factory_upgrade: "Nanotech Factory Complex" #NT!
  NFac_building_nanotech_factory_upgrade_desc: "With the help of exotic gases, we can create an atmosphere that greatly improves the efficency of our Nanites." #NT!
- NGen_building_nanotech_generator: "Nanotech-Power plant" #NT!
+ NGen_building_nanotech_generator: "Nanotech Power-plant" #NT!
  NGen_building_nanotech_generator_desc: "Thanks to the manipulative qualities of Nanites, we can extract Energy from Volatile Motes." #NT!
- NGen_building_nanotech_generator_upgrade: "Nanotech-Power plant-Complex" #NT!
- NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech-Power plants." #NT!
+ NGen_building_nanotech_generator_upgrade: "Nanotech Power-plant Complex" #NT!
+ NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech Power-plants." #NT!
   
   
   ####Parciwal's Subsumer (Planet killer weapon) 
- PLANET_KILLER_NANITE_CONSUMPTION: "Nanite Spreader" #NT!
+ PLANET_KILLER_NANITE_CONSUMPTION: "World Subsumer" #NT!
  PLANET_KILLER_NANITE_CONSUMPTION_ACTION: "Subsume" #NT!
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANITE_CONSUMPTION: "Preparing to subsume $PLANET|Y$" #NT!
  MESSAGE_DESC_FOR_PLANET_KILLER_NANITE_CONSUMPTION: "was subsumed by nanobots from" #NT!
@@ -111,3 +111,19 @@
  planet_subsumed.101.desc: "After the swarm of specialised nanites from [From.From:Getname] touched the surface of [From.Getname] , they immeadiatly began spreading.\n\ After a few weeks, the Planet, including all residents and infrastructure, was transformed into a giant mass of nanites." #NT!
  WaCol_will_destroy_colony: "With this Action, every Pop will be killed and every District and building will be destroyed." #NT!
  WaCol_is_nanite_world: "This already is a Nanite World" #NT!
+  
+  
+ #####Techs 
+ tech_advanced_nanites: "Advanced Nanite Understanding" #NT!
+ tech_advanced_nanites_desc: "Since our transformation into a nano-machines,our understanding of nanites grows exponentianaly " #NT!
+ tech_nanotech_advanced_alloys_and_factory: "Advanced Nanotech Production" #NT!
+ tech_nanotech_advanced_alloys_and_factory_desc: "With the help of rare resources we can increase output of our Nanotech Production buildings" #NT!
+ tech_nanotech_specialised_transmuters: "Specialised Nanite Transmutation" #NT!
+ tech_nanotech_specialised_transmuters_desc: "Some rare resources are more valuable than other so we need to specialise our transmuters" #NT!
+ nanotech_category: "Nanotech" #NT!
+ nanotech_category_desc: "Nanites are the future" #NT!
+ mod_planet_structures_nanites_upkeep_mult: "Nanite upkeep" #NT!
+ building_nanotech_cauldron_upgrade: "Nanotech Forge" #NT!
+ building_nanotech_cauldron_upgrade_desc: "Exotic gases allow us to create an atmosphere that greatly improves the efficency of our Nanites and Volatile Motes allow us to partially substitute energy upkeep. " #NT!
+  
+  

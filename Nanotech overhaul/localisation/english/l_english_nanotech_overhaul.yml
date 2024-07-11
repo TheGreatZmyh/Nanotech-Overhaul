@@ -39,7 +39,7 @@ tech_nanotech_caster_desc: "If nanites are just a small robots, what stops us fr
 building_nanotech_refinery: "Nanite Refinery"
 building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production."
 building_nanotech_Chemical: "Nanite Chemical Plant"
-building_nanotech_Chemical_desc: "These Buildings have specialised in the production of volatile Motes."
+building_nanotech_Chemical_desc: "These Buildings have specialised in the production of Volatile Motes."
 building_nanotech_Crystal: "Nanite Crystal Plant"
 building_nanotech_Crystal_desc: "These Buildings have specialised in the production of Rare Crystals."
 nanotech_summoning_mothership: "Mothership summoning"
@@ -91,18 +91,18 @@ nanotech_ARCHAEO_TITAN:0 "Ancient Ruination Glare"
  nanotech_ARCHAEO_TITAN_DESC:0 "Tremendous medium range firepower will enable our titans to break through enemy lines. These ancient cannons were once the foundation upon which a galactic empire was built"
 
 ####Parciwal's Generator and Factory
- NFac_building_nanotech_factory: "Nanotech-Factory"
+ NFac_building_nanotech_factory: "Nanotech Factory"
  NFac_building_nanotech_factory_desc: "With the help of nanites, we can create Consumer goods with outstanding Quality."
- NFac_building_nanotech_factory_upgrade: "Nanotech-Factory-Complex"
+ NFac_building_nanotech_factory_upgrade: "Nanotech Factory Complex"
  NFac_building_nanotech_factory_upgrade_desc: "With the help of exotic gases, we can create an atmosphere that greatly improves the efficency of our Nanites."
-  NGen_building_nanotech_generator: "Nanotech-Power plant"
+  NGen_building_nanotech_generator: "Nanotech Power-plant"
  NGen_building_nanotech_generator_desc: "Thanks to the manipulative qualities of Nanites, we can extract Energy from Volatile Motes."
- NGen_building_nanotech_generator_upgrade: "Nanotech-Power plant-Complex"
- NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech-Power plants."
+ NGen_building_nanotech_generator_upgrade: "Nanotech Power-plant Complex"
+ NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech Power-plants."
 
 
  ####Parciwal's Subsumer (Planet killer weapon)
-  PLANET_KILLER_NANITE_CONSUMPTION: "Nanite Spreader"
+  PLANET_KILLER_NANITE_CONSUMPTION: "World Subsumer"
  PLANET_KILLER_NANITE_CONSUMPTION_ACTION: "Subsume"
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANITE_CONSUMPTION: "Preparing to subsume $PLANET|Y$"
  MESSAGE_DESC_FOR_PLANET_KILLER_NANITE_CONSUMPTION: "was subsumed by nanobots from"
@@ -111,3 +111,19 @@ nanotech_ARCHAEO_TITAN:0 "Ancient Ruination Glare"
  planet_subsumed.101.desc: "After the swarm of specialised nanites from [From.From:Getname] touched the surface of [From.Getname] , they immeadiatly began spreading.\n\ After a few weeks, the Planet, including all residents and infrastructure, was transformed into a giant mass of nanites."
  WaCol_will_destroy_colony: "With this Action, every Pop will be killed and every District and building will be destroyed."
  WaCol_is_nanite_world: "This already is a Nanite World"
+
+
+#####Techs
+tech_advanced_nanites: "Advanced Nanite Understanding"
+tech_advanced_nanites_desc: "Since our transformation into a nano-machines,our understanding of nanites grows exponentianaly "
+tech_nanotech_advanced_alloys_and_factory: "Advanced Nanotech Production"
+tech_nanotech_advanced_alloys_and_factory_desc: "With the help of rare resources we can increase output of our Nanotech Production buildings"
+tech_nanotech_specialised_transmuters: "Specialised Nanite Transmutation"
+tech_nanotech_specialised_transmuters_desc: "Some rare resources are more valuable than other so we need to specialise our transmuters"
+nanotech_category: "Nanotech"
+nanotech_category_desc: "Nanites are the future"
+mod_planet_structures_nanites_upkeep_mult: "Nanite upkeep"
+building_nanotech_cauldron_upgrade: "Nanotech Forge"
+building_nanotech_cauldron_upgrade_desc: "Exotic gases allow us to create an atmosphere that greatly improves the efficency of our Nanites and Volatile Motes allow us to partially substitute energy upkeep. "
+
+
