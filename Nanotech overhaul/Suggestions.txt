@@ -37,6 +37,7 @@ Flies - 1000% morale damage buff , might turn pops on the planet into pre sapien
 Advanced Nanite  Authority(TO DO)
 1 for non machine intellegence
 1 for machine intelligence
+Nanite Civics should combine like  2 civics in combination should give different effects
 nanite purge option
 way to completely consume planets (at least 1 mil nanites, prob scale of planet size)
 static opinion debuff
