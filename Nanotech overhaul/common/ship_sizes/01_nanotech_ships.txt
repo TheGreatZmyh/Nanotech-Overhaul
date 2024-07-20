@@ -25,7 +25,7 @@ nanotech_mothership = {
 	ship_roles = { artillery carrier  }
 	use_shipnames_from = titan
     can_have_federation_design = yes
-	base_buildtime = @titan_build_time
+	base_buildtime = 1000
 	enable_default_design = yes
 	is_designable = yes
 	
@@ -43,7 +43,7 @@ potential_country = {
 		has_tradition = tr_nanotech_finish
 	}
 
-
+	
 
 	
 }
