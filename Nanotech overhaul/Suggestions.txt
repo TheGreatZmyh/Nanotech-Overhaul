@@ -19,6 +19,14 @@ Blocks Sensors
 Decreases enemy fire rate and ship speed 
 Decreases enemy Armor hit points by -25%
 
+Edicts:
+Nanite Overdrive:
++100% Building output
++1000% Building nanite upkeep
++50% Building Energy Upkeep
+
+
+
 
 More nanite weapons
 Nanite disentegrator
@@ -38,7 +46,8 @@ Advanced Nanite  Authority(TO DO)
 1 for non machine intellegence
 1 for machine intelligence
 Nanite Civics should combine like  2 civics in combination should give different effects
-nanite purge option
+nanite purge option:
+every 3 pop is turned into a main machine species  others are turned into nanites
 way to completely consume planets (at least 1 mil nanites, prob scale of planet size)
 static opinion debuff
 new bombardment stance
@@ -48,7 +57,8 @@ Increase upkeep and output of all buildings on nanite worlds/ Nanite consumeng b
 Make a trait that gives nanite consumption but increases assembly speed (like budding but even better)
 Trait that boosts output but also increases nanite consumption of nanite buildings (governor special perk) 
 
-Make a decision allowing Obsessional directive to turn entire planets into a consumer goods( can be uninhabited but it destroys all deposits and gives little consumer goods)
+Make a decision allowing Obsessional directive to turn entire planets into a consumer goods( can be uninhabited but it destroys all deposits and gives little consumer goods):
+just usuall terravore decision but it only gives consumer goods and if its done on a nanite planet it does it alot faster and gives more consumer goods.
 
 
 Nanotech related Crisis path (only for machine intelligence) 
