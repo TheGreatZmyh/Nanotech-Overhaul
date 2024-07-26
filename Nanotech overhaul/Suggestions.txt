@@ -39,20 +39,34 @@ and maybe different for Obsessional directive
 
 
 Civics ideas:
+Determined Exterminator -> Gray Goo :
+Has Flood casus beli on non nanite empires
+has buff to the purge type now every 2 pop is turned int your pop and you receive more nanites from purging 
+ship weapon damage +25%
+nanite bombardment damage: +150%
++50% ship build speed
+-20% ship build cost
++25% legion exp gain
+Driven Assimilator -> Nanite Assimilator:
+same buffs but the cyborg trait is changed to nanite cyborgization and pops can live on a nanite world 
+no access to the cyborg ascension
 Flies - 1000% morale damage buff, might turn pops on the planet into pre-sapient during planetary invasion or bombardment
 Nanite swarm preference :
 this Nanite Intelligence prefers to use more advanced nanite swarms to produce resources.
 Changes all autonomous buildings to less autonomous output but gives jobs with better output. +25% growth node exp gain
+
 Nanite Research Clusters: 
 +1% research speed for every 100k nanites in stock pile
 +25% cognitive node exp gain
+
 Unstopable replication:
 +50 % assembly speed
 +25% growth node exp gain
-Advanced Nanite  Authority(TO DO)
+Advanced Nanite  Authority:
 Nanite intelligence - This machine intelligence has fully embraced its transformation and became one with the nanites.
 0.1% research speed for every 100k nanites in stockpiles
 -30% empire size from systems
+
 |||
 1 for non machine intelligence
 1 for machine intelligence
