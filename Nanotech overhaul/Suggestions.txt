@@ -20,7 +20,7 @@ Decreases enemy fire rate and ship speed
 Decreases enemy Armor hit points by -25%
 
 Edicts:
-Nanite Overdrive: ||Done (not in live version but done)
+Nanite Overdrive: ||Done
 +100% Building output
 +1000% Building nanite upkeep
 +50% Building Energy Upkeep
@@ -72,7 +72,7 @@ Nanite intelligence - This machine intelligence has fully embraced its transform
 1 for machine intelligence
 Nanite Civics should combine like  2 civics in combination should give different effects
 nanite purge option:
-every 3 pop is turned into a main machine species  others are turned into nanites
+every 3 pop is turned into a main machine species  others are turned into nanites || done
 way to completely consume planets (at least 1 mil nanites, prob scale of planet size)
 static opinion debuff
 new bombardment stance
