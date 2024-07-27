@@ -4,3 +4,8 @@ on_monthly_pulse_country = {
 		nanotech.5
 	}
 }
+on_pop_purged = {
+	events = {
+		nanotech.6
+	}
+}

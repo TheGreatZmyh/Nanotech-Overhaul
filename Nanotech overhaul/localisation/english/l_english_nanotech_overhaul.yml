@@ -127,3 +127,12 @@ building_nanotech_cauldron_upgrade: "Nanotech Forge"
 building_nanotech_cauldron_upgrade_desc: "Exotic gases allow us to create an atmosphere that greatly improves the efficency of our Nanites and Volatile Motes allow us to partially substitute energy upkeep. "
 
 
+### Edicts:
+edict_nanotech_overdrive: "Nanite Overdrive"
+edict_nanotech_overdrive_desc: "By Overclocking our nanites we can double our output empire-wide, but nanites become power hungry and  fragile under these conditions "
+mod_planet_buildings_nanites_upkeep_mult: "Building £nanites£ Nanite upkeep"
+
+### Purge:
+nanotech_purge: "Nanite Assimilation"
+nanotech_purge_tooltip: "Affected Pops are consumed by the specialised swarms of nanites in order to create more nanites."
+nanotech_purge_tooltip_delayed: "§LAssimilate all that divides and distinguishes, All shall become nanites§"

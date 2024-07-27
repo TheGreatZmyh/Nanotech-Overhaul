@@ -256,3 +256,90 @@ country_event = {
 		}
 	}
 }
+ #planet_event = {
+#	id = nanotech.6
+#	is_triggered_only = yes
+#	hide_window = yes
+#
+#	trigger = {
+#		from = {
+#			has_tradition =  tr_nanotech_adopt
+#		}
+#		exists = fromfrom #crisis.202 can remove the last pop
+#		fromfrom = {
+#			NOR = {
+#				has_purge_type = {
+#					type = purge_displacement
+#				}
+#				has_purge_type = {
+#					type = purge_cosmogenesis
+#				}
+#				has_purge_type = {
+#					type = purge_cosmogenesis_lathe_resettle
+#				}
+#			}
+#			is_robotic_species = no
+#			species = {
+#				NOT = { is_archetype = PRESAPIENT }
+##			}
+#			NOR = {
+#				has_trait = trait_cybernetic
+#				has_trait = trait_zombie
+#			}
+#		}
+#	}
+#
+#	immediate = {
+#		random_list = {
+#			66 = { }
+#			# 33% Chance to create a cyber-zombie per pop.
+#			33 = {
+#				create_pop = {
+#					species = root.owner.species
+	#			}
+#			}
+#		}
+#	}
+#}
+planet_event = {
+	id = nanotech.6
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		root.owner = {
+			has_tradition = tr_nanotech_adopt
+		}
+		exists = fromfrom #crisis.202 can remove the last pop
+		fromfrom = {
+			has_purge_type = {
+				type = nanotech_purge
+			}
+			
+		}
+	}
+
+	immediate = {
+		random_list = {
+			
+			66 = {
+				root.owner = {
+					add_resource = {
+					nanites = 1000
+				}
+			}
+		}
+			33 = {
+				create_pop = {
+					species = root.owner.species
+				}
+				last_created_pop = {
+					set_citizenship_type = {
+					country = root.owner
+					type = citizenship_full_machine
+				}
+			}
+			}
+		}
+	}
+}
