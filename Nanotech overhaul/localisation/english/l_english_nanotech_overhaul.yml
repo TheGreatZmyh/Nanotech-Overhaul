@@ -89,7 +89,8 @@ nanotech_PERDITION_BEAM_TITAN: "Perdition Beam"
 nanotech_PERDITION_BEAM_DESC: "A massive array of linked energy amplification conduits that fires a beam of unprecedented firepower."
 nanotech_ARCHAEO_TITAN:0 "Ancient Ruination Glare"
  nanotech_ARCHAEO_TITAN_DESC:0 "Tremendous medium range firepower will enable our titans to break through enemy lines. These ancient cannons were once the foundation upon which a galactic empire was built"
-
+nanotech_COMBAT_COMPUTER_ARTILLERY_DEFAULT:0 "$COMBAT_COMPUTER_DEFAULT$"
+ nanotech_COMBAT_COMPUTER_ARTILLERY_DEFAULT_DESC: "$combat_computers_DESC$"
 ####Parciwal's Generator and Factory
  NFac_building_nanotech_factory: "Nanotech Factory"
  NFac_building_nanotech_factory_desc: "With the help of nanites, we can create Consumer goods with outstanding Quality."

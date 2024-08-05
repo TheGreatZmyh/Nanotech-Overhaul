@@ -434,7 +434,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
-	size_restriction = {  nanotech_mothership}
+	size_restriction = {  nanotech_mothership }
 	component_set = "combat_computers"
 	ship_behavior = "carrier"
 	prerequisites = { "tech_combat_computers_1" }
@@ -633,5 +633,32 @@ utility_component_template = {
 				dynamic_scale = no
 			}
 		}
+	}
+}
+
+
+utility_component_template = {
+	key = "nanotech_COMBAT_COMPUTER_ARTILLERY_DEFAULT"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = @power0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost0
+		}
+	}
+	ship_behavior = "artillery"
+
+	class_restriction = { shipclass_military shipclass_starbase shipclass_military_special }
+	size_restriction = { nanotech_mothership }
+	component_set = "combat_computers"
+	upgrades_to = "nanotech_COMPUTER_ARTILLERY_BASIC"
+	ai_tags = { artillery artillery_stealth energy_torpedoes energy_torpedoes_stealth }
+	ai_tag_weight = 0
+
+	ai_weight = {
+		weight = 1
 	}
 }
