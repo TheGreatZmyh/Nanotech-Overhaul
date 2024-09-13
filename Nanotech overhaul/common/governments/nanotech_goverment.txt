@@ -1,0 +1,15 @@
+# Advanced Assimilator - Memory Aggregator
+gov_nanotech = {
+	ruler_title = RT_CENTRAL_AGGREGATOR
+
+	should_force_rename = yes
+
+	possible = {
+		is_machine_empire = yes
+		has_country_flag = nanotech_empire
+	}
+
+	weight = {
+		base = @gov_authority_swap_weight
+	}
+}

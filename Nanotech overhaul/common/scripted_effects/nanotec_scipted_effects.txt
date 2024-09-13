@@ -1,0 +1,10 @@
+set_subject_advanced_authority = {
+	from = {
+		switch = {
+			trigger = has_country_flag
+			nanotech_empire = { root = { set_country_flag = nanotech_empire } }
+		}
+	}
+
+	advanced_authority_refresh = yes
+}

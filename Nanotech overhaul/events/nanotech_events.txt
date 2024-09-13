@@ -343,3 +343,37 @@ planet_event = {
 		}
 	}
 }
+# Fired by: tr_cybernetics_assimilator_finish
+country_event = {
+	id = nanotech.7
+	title = nanotech.7.name
+	desc = nanotech.7.desc
+	picture = GFX_evt_hive_cyberization
+	show_sound = event_the_flesh_is_weak
+
+	is_triggered_only = yes
+
+	option = {
+		name = nanotech.7.a
+		set_country_flag = nanotech_empire
+		custom_tooltip = nanotech.7.a.tt
+		hidden_effect = {
+			advanced_authority_refresh = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = nanotech.7.c
+		custom_tooltip = nanotech.7.c.tt
+		trigger = { is_ai = no }
+	}
+
+	after = {
+		ruler = {
+			add_trait = leader_trait_nanite
+		}
+	}
+}

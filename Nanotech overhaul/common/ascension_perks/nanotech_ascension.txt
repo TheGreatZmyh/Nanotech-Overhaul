@@ -11,7 +11,7 @@ ap_synthetic_age = {
 		}
 		NOR = {
 			has_ascension_perk = ap_synthetic_age
-			has_origin = origin_gray_goo
+			has_origin = origin_nanotech
 		}
 		is_natural_design_empire = no
 	}
@@ -26,8 +26,8 @@ ap_synthetic_age = {
 			NOT = { has_ascension_perk = ap_organo_machine_interfacing_assimilator }
 		}
 		custom_tooltip = {
-			fail_text = "requires_not_origin_gray_goo"
-			NOT = { has_origin = origin_gray_goo }
+			fail_text = "requires_not_origin_nanotech"
+			NOT = { has_origin = origin_nanotech }
 		}
 		custom_tooltip = {
 			fail_text = "requires_free_tradition_tree"

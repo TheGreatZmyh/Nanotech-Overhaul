@@ -1,0 +1,141 @@
+auth_machine_intelligence = {
+	machine_empire = yes
+	has_heir = no
+	election_type = none
+	has_factions = no
+	can_reform = no
+	localization_postfix = machine_intelligence
+
+	valid_for_released_vassal = no
+
+	ruler_council_position = councilor_ruler_machine_intelligence
+
+	playable = {
+		OR = {
+			has_synthetic_dawn = yes
+			has_machine_age_dlc = yes
+		}
+	}
+	possible = {
+		ethics = {
+			value = ethic_gestalt_consciousness
+		}
+		species_archetype = { value = MACHINE }
+	}
+	random_weight = {
+		base = 2
+	}
+
+	traits = {
+		trait = trait_machine_unit
+	}
+
+	country_modifier = {
+		colony_start_num_pops_add = 1
+		planet_pop_assembly_add = 1
+		station_gatherers_produces_mult = 0.1
+		pop_growth_speed_reduction = 0.5
+	}
+
+	tags = {
+		AUTH_MACHINE_NATIVE_POPS
+		AUTH_MACHINE_FOREIGN_POP_SURVIVAL
+		AUTH_MACHINE_TECH_ADDITIONS
+		AUTH_MACHINE_TECH_RESTRICTIONS
+		AUTH_MACHINE_ASCENSION_RESTRICTIONS
+		NEW_LINE
+		AUTHORITY_SUCCESSION_TYPE
+		AUTH_GESTALT_IMMORTAL_LEADERS
+	}
+
+	#Memory Aggregator
+	advanced_authority_swap	= {
+		name = "auth_memory_aggregator"
+		description = "auth_memory_aggregator_desc"
+		inherit_icon = no
+		inherit_effects = no
+		trigger = {
+			is_scope_valid = yes
+			has_country_flag = driven_memory_aggregator
+		}
+		modifier = {
+			custom_tooltip = auth_memory_aggregator_tt
+			show_only_custom_tooltip = no
+			colony_start_num_pops_add = 1
+
+			planet_pop_assembly_add = 1
+			pop_growth_speed_reduction = 0.25
+			empire_size_pops_mult = -0.1
+			MACHINE_species_trait_picks_add = 1
+		}
+		tags = {
+			AUTH_MACHINE_NATIVE_POPS
+			AUTH_MACHINE_FOREIGN_POP_SURVIVAL
+			AUTH_MACHINE_TECH_ADDITIONS
+			AUTH_MACHINE_TECH_RESTRICTIONS
+			AUTH_ASSIMILATOR_ASCENSION_RESTRICTIONS
+			NEW_LINE
+			AUTHORITY_SUCCESSION_TYPE
+			AUTH_GESTALT_IMMORTAL_LEADERS
+		}
+	}
+	#Neural Chorus
+	advanced_authority_swap	= {
+		name = "auth_neural_chorus"
+		description = "auth_neural_chorus_desc"
+		inherit_icon = no
+		inherit_effects = no
+		trigger = {
+			is_scope_valid = yes
+			has_country_flag = driven_neural_chorus
+		}
+		modifier = {
+			custom_tooltip = auth_driven_neural_chorus_tt
+			show_only_custom_tooltip = no
+			colony_start_num_pops_add = 1
+			planet_pops_cyborgs_upkeep_mult = 0.1
+		}
+		tags = {
+			AUTH_MACHINE_NATIVE_POPS
+			AUTH_MACHINE_FOREIGN_POP_SURVIVAL
+			AUTH_MACHINE_TECH_ADDITIONS
+			AUTH_MACHINE_TECH_RESTRICTIONS
+			AUTH_ASSIMILATOR_ASCENSION_RESTRICTIONS
+			NEW_LINE
+			AUTHORITY_SUCCESSION_TYPE
+			AUTH_GESTALT_IMMORTAL_LEADERS
+		}
+	}
+	#Nanite 
+	advanced_authority_swap	= {
+		name = "auth_nanotech"
+		description = "auth_nanotech_desc"
+		inherit_icon = no
+		inherit_effects = no
+		trigger = {
+			is_scope_valid = yes
+			has_country_flag = nanotech_empire
+		}
+		modifier = {
+			custom_tooltip = auth_nanotech_tt
+			show_only_custom_tooltip = no
+			colony_start_num_pops_add = 1
+
+			planet_pop_assembly_add = 1
+			pop_growth_speed_reduction = 0.25
+			empire_size_pops_mult = -0.1
+			MACHINE_species_trait_picks_add = 1
+		}
+		tags = {
+			AUTH_MACHINE_NATIVE_POPS
+			AUTH_MACHINE_FOREIGN_POP_SURVIVAL
+			AUTH_MACHINE_TECH_ADDITIONS
+			AUTH_MACHINE_TECH_RESTRICTIONS
+			NEW_LINE
+			AUTHORITY_SUCCESSION_TYPE
+			AUTH_GESTALT_IMMORTAL_LEADERS
+		}
+	}
+}
+
+	
