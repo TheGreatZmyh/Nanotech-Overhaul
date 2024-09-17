@@ -137,3 +137,16 @@ mod_planet_buildings_nanites_upkeep_mult: "Building £nanites£ Nanite upkeep"
 nanotech_purge: "Nanite Assimilation"
 nanotech_purge_tooltip: "Affected Pops are consumed by the specialised swarms of nanites in order to create more nanites."
 nanotech_purge_tooltip_delayed: "§LAssimilate all that divides and distinguishes, All shall become nanites§"
+
+RT_CENTRAL_NANITE: "Supreme Nanite Cluster"
+
+#Origin:
+requires_not_origin_nanotech:0"$TRIGGER_FAIL$Does NOT have Gray Goo Origin"
+nanotech_nanite_machine:0"Nanite Cluster"
+nanotech_nanite_machine_desc:0"This machine is made up of a cluster of nanites."
+TRAIT_NANITES_COHESION_EFFECT:0 "Each pop working as a slave or better increases output of every job by 0.1% ."
+nanotech_harvester_origin_blocker:0"Nanite Matrix"
+nanite_harvester_blocker_origin_desc:0"This Nanite Matrix Unit was deployed by unkown precursors of Nanite Consciousness that inhabits this world"
+START_SCREEN_NANOTECH_GESTALT:0"Our creators deployed Nanite Index on [GetHomeWorldName] with intent of cataloging every life form on it,but something went awry and it started uncontrolable consumtption of the [GetHomeWorldName].After some time Nanite Matrix created more advanced nanite clusters to repair itself, those clusters evolved becoming us,[GetSpeciesNamePlural].After reinvention of FTL by using the data from Nanite Matrix we are finally ready to return to the void. "
+START_SCREEN_NANOTECH_ASSIMILATOR:0""
+START_SCREEN_NANOTECH_TERMINATOR:0""

@@ -1,0 +1,36 @@
+# Gray Goo
+part = {
+	location = 0
+	localization = "START_SCREEN_NANOTECH_GESTALT"
+
+	trigger = {
+		has_origin = origin_nanotech
+		has_authority = auth_machine_intelligence
+		NOR = {
+		    has_government = gov_machine_assimilator
+		    has_government = gov_machine_terminator
+		}
+	}
+}
+part = {
+	location = 0
+	localization = "START_SCREEN_NANOTECH_ASSIMILATOR"
+
+	trigger = {
+		has_origin = origin_nanotech
+		has_authority = auth_machine_intelligence
+		has_government = gov_machine_assimilator
+		
+	}
+}
+part = {
+	location = 0
+	localization = "START_SCREEN_NANOTECH_TERMINATOR"
+
+	trigger = {
+		has_origin = origin_nanotech
+		has_authority = auth_machine_intelligence
+		has_government = gov_machine_terminator
+		
+	}
+}

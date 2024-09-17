@@ -3,4 +3,9 @@ Spritetypes = {
 	name = "GFX_starbase_nanotech_storm_caster"
 	texturefile = "gfx/interface/icons/modules/nanotech_storm_caster.dds"
 }
+spriteType = {
+	name = "GFX_origin_nanotech"
+	texturefile = "gfx/event_pictures/origins/origin_nanotech.dds"
+	alwaystransparent = yes
+}
 }

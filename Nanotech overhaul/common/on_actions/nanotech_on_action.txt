@@ -9,3 +9,8 @@ on_pop_purged = {
 		nanotech.6
 	}
 }
+on_game_start = {
+	events = {
+		nanotech.8   # Start Gray Goo Origin
+	}
+}

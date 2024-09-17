@@ -377,3 +377,136 @@ country_event = {
 		}
 	}
 }
+event = {
+	id = nanotech.8
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		every_country = {
+			limit = { has_origin = origin_nanotech }
+			set_country_flag = transformation_nanotech
+			set_country_flag = nanotech_traditions_unlocked
+			add_tradition = tr_nanotech_adopt
+			add_resource = { nanites = 200 }
+			owner = {
+			random_owned_starbase = {
+				remove_starbase_building = {
+					building = crew_quarters
+				}
+				remove_starbase_building = {
+					building = crew_quarters_machine_intelligence
+				}
+				set_starbase_building = {
+					slot = 1
+					building = nanite_harvester
+				}
+			}
+			every_system = {
+			limit = {
+				exists = owner
+				owner = {
+					has_tradition = tr_nanotech_adopt
+				}
+				exists = starbase
+				starbase = {
+					has_starbase_building = nanite_harvester
+				}
+			}
+			system_event = { id = cybernetics.5050 }
+		}
+			random_owned_planet = {
+				limit = {
+					is_capital = yes
+				}
+				add_deposit = d_nanotech_Nanite_matrix
+				add_deposit = d_nanites_medium
+				add_deposit = d_nanites_medium
+				add_deposit = d_nanites_medium
+				add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        add_deposit = d_nanotech_devastation
+		        remove_building = building_research_lab_1
+		        add_building = building_nanolab_1
+		        remove_all_district = yes
+		        if = {
+			        limit = {
+				        NOT = {
+					        has_authority = auth_machine_intelligence
+				        }
+			       }
+			       	remove_all_district = yes
+			       	remove_district = district_generator
+			       	remove_district = district_generator
+			       	remove_district = district_mining
+			       	remove_district = district_mining
+			       	remove_district = district_mining
+			       	remove_district = district_mining
+			        add_district_and_planet_size_if_needed_effect = {
+				        district = district_generator_uncapped
+			        }
+			        add_district_and_planet_size_if_needed_effect = {
+				        district = district_generator_uncapped
+			        }
+			        add_district_and_planet_size_if_needed_effect = {
+				        district = district_generator_uncapped
+			        }
+			        add_district_and_planet_size_if_needed_effect = {
+				        district = district_mining_uncapped
+			        }
+			        add_district_and_planet_size_if_needed_effect = {
+				        district = district_mining_uncapped
+			        }
+			        add_district_and_planet_size_if_needed_effect = {
+				        district = district_mining_uncapped
+			        }
+			    }
+			    if = {
+			        limit = { has_authority = auth_machine_intelligence }
+			       remove_all_district = yes
+			       remove_district = district_generator
+			       remove_district = district_generator
+			       remove_district = district_generator
+			       remove_district = district_generator
+			       remove_district = district_mining
+			       remove_district = district_farming
+			       add_district_and_planet_size_if_needed_effect = {
+				        district = district_generator_uncapped
+			        }
+			        add_district_and_planet_size_if_needed_effect = {
+				        district = district_generator_uncapped
+			        }
+			        add_district_and_planet_size_if_needed_effect = {
+				        district = district_generator_uncapped
+			        }
+			        add_district_and_planet_size_if_needed_effect = {
+				        district = district_generator_uncapped
+			        }
+			       add_district_and_planet_size_if_needed_effect = {
+				        district = district_mining_uncapped
+			        }
+			       
+			    }
+			}
+		  }
+		}
+	}
+}

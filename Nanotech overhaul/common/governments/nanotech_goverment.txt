@@ -1,6 +1,6 @@
 # Advanced Assimilator - Memory Aggregator
 gov_nanotech = {
-	ruler_title = RT_CENTRAL_AGGREGATOR
+	ruler_title = RT_CENTRAL_NANITE
 
 	should_force_rename = yes
 

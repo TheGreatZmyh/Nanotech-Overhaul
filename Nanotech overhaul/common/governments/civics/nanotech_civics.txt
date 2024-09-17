@@ -1,0 +1,34 @@
+origin_nanotech = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_resource_consolidation.dds"
+	picture = GFX_origin_nanotech
+
+	starting_colony = pc_nanotech
+	
+
+	playable = { has_machine_age_dlc = yes }
+	ai_playable = { has_machine_age_dlc = yes }
+
+	possible = {
+		authority = { value = auth_machine_intelligence }
+		species_archetype = { value = MACHINE }
+		civics = { 
+		       NOR = { 
+		           value = civic_environmentalist
+		           value = civic_agrarian_idyll
+		           value = civic_machine_servitor
+		          } 
+		     }
+	}
+	flags = { custom_start_screen }
+
+	description = "origin_tooltip_nanotech_effects"
+	negative_description = "origin_tooltip_nanotech_negative_effects"
+	traits = {
+		trait = nanotech_nanite_machine
+	}
+	advanced_start = yes
+	random_weight = {
+		base = 5
+	}
+}

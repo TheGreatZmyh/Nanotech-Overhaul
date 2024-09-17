@@ -122,13 +122,12 @@ auth_machine_intelligence = {
 			colony_start_num_pops_add = 1
 
 			planet_pop_assembly_add = 1
-			pop_growth_speed_reduction = 0.25
+			pop_growth_speed_reduction = 1
 			empire_size_pops_mult = -0.1
 			MACHINE_species_trait_picks_add = 1
 		}
 		tags = {
 			AUTH_MACHINE_NATIVE_POPS
-			AUTH_MACHINE_FOREIGN_POP_SURVIVAL
 			AUTH_MACHINE_TECH_ADDITIONS
 			AUTH_MACHINE_TECH_RESTRICTIONS
 			NEW_LINE

@@ -127,7 +127,7 @@ nanotech_nanite_machine = {
 		weight = 0
 	}
 
-	custom_tooltip_with_modifiers = TRAIT_NANITES_LIFEFORM_EFFECT
+	custom_tooltip_with_modifiers = TRAIT_NANITE_COHESION_EFFECT
 	modifier = {
 		pc_nanotech_habitability = 1
 	}
